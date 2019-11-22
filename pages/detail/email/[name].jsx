@@ -6,8 +6,8 @@ import projects from '../../../data/projects';
 function Name({ email }) {
   return (
     <div>
-      <Header headline={email.name} />
-      <div>{JSON.stringify(email)}</div>
+      <Header headline={email.headline} description={email.description} />
+      <div>{JSON.stringify(email, null, 2)}</div>
     </div>
   );
 }

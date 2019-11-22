@@ -9,7 +9,7 @@ const HeaderPropTypes = {
   headline: PropTypes.string.isRequired,
 };
 
-function navCheck(pathName) {
+function isPrimaryHeaderFn(pathName) {
   switch (true) {
   case pathName === '/':
     return true;
@@ -22,17 +22,17 @@ function navCheck(pathName) {
   }
 }
 
-function Header({ headline = 'Brand' }) {
+function Header({ headline = 'Brand', description = '' }) {
   const router = useRouter();
-  const needsNav = navCheck(router.pathname);
+  const isPrimaryHeader = isPrimaryHeaderFn(router.pathname);
 
   return (
     <header className="c-Header">
-      <div className="c-Header--wrapper">
-        <div className="col-left">
-          <h1>{headline}</h1>
-          {needsNav
-            ? (
+      {isPrimaryHeader
+        ? (
+          <div className="c-Header--wrapper">
+            <div className="col-left">
+              <h1>{headline}</h1>
               <div className="links--wrapper">
                 <HeaderLink href="/">
                   email
@@ -41,15 +41,24 @@ function Header({ headline = 'Brand' }) {
                   landing pages
                 </HeaderLink>
               </div>
-            )
-            : (
-              <div>no nav</div>
-            )}
-        </div>
-        <div className="col-right">
-          content right
-        </div>
-      </div>
+            </div>
+            <div className="col-right">
+              <img src="/images/devices-illustration.png" />
+            </div>
+          </div>
+        )
+        : (
+          <div className="c-Header--wrapper">
+            <div className="col-left">
+              <h1 style={{ marginBottom: 0 }}>{headline}</h1>
+            </div>
+            <div className="col-right" style={{ justifyContent: 'flex-start' }}>
+              <h2>
+                {description}
+              </h2>
+            </div>
+          </div>
+        )}
     </header>
   );
 }

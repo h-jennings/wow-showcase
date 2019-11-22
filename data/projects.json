@@ -1,132 +1,184 @@
 {
   "emails": [{
-      "name": "aaa",
       "id": 1,
+      "name": "aaa",
+      "headline": "AAA",
+      "description": "National Member Association",
       "src": "/images/emails/aaa.png"
     },
     {
-      "name": "beckers",
       "id": 2,
+      "name": "beckers",
+      "headline": "Beckers",
+      "description": "School Supplies",
       "src": "/images/emails/beckers.png"
     },
     {
-      "name": "billy-casper-golf",
       "id": 3,
+      "name": "billy-casper-golf",
+      "headline": "Billy Casper Golf",
+      "description": "Golf Course Management",
       "src": "/images/emails/billy-casper-golf.png"
     },
     {
-      "name": "bloomingville",
       "id": 4,
+      "name": "bloomingville",
+      "headline": "Bloomingville",
+      "description": "Nordic home & interior design",
       "src": "/images/emails/bloomingville.png"
     },
     {
-      "name": "bosch",
       "id": 5,
+      "name": "bosch",
+      "headline": "Bosch",
+      "description": "Power Tools",
       "src": "/images/emails/bosch.png"
     },
     {
-      "name": "brownlow",
       "id": 6,
+      "name": "brownlow",
+      "headline": "Brownlow",
+      "description": "Giftable Decor",
       "src": "/images/emails/brownlow.png"
     },
     {
-      "name": "chumash-casino",
       "id": 7,
+      "name": "chumash-casino",
+      "headline": "Chumash Casino",
+      "description": "Entertainment Destination",
       "src": "/images/emails/chumash-casino.png"
     },
     {
-      "name": "cleanChoice",
       "id": 8,
+      "name": "clean-choice-energy",
+      "headline": "Clean Choice Energy",
+      "description": "Clean Energy Supplier",
       "src": "/images/emails/cleanChoice.jpg"
     },
     {
-      "name": "creative-co-op",
       "id": 9,
+      "name": "creative-co-op",
+      "headline": "Creative Co-op",
+      "description": "Home, Seasonal Décor & Fashion Accessories",
       "src": "/images/emails/creative-co-op.png"
     },
     {
-      "name": "dei",
       "id": 10,
+      "name": "dei",
+      "headline": "DEI",
+      "description": "Gifts & More",
       "src": "/images/emails/dei.png"
     },
     {
-      "name": "ganz",
       "id": 11,
+      "name": "ganz",
+      "headline": "Ganz",
+      "description": "Gifts & More",
       "src": "/images/emails/ganz.jpg"
     },
     {
-      "name": "GHC",
       "id": 12,
+      "name": "ghc",
+      "headline": "GHC",
+      "description": "Natural Health Products",
       "src": "/images/emails/GHC.png"
     },
     {
-      "name": "giftcraft",
       "id": 13,
+      "name": "giftcraft",
+      "headline": "GiftCraft",
+      "description": "Home Decor",
       "src": "/images/emails/giftcraft.png"
     },
     {
-      "name": "howard-elliot",
       "id": 14,
+      "name": "howard-elliot",
+      "headline": "Howard Elliot",
+      "description": "Decorative Mirrors & Accessories",
       "src": "/images/emails/howard-elliot.png"
     },
     {
-      "name": "ibm",
       "id": 15,
+      "name": "ibm",
+      "headline": "IBM",
+      "description": "Multinational Information Technology",
       "src": "/images/emails/ibm.png"
     },
     {
-      "name": "imax",
       "id": 16,
+      "name": "imax",
+      "headline": "Imax",
+      "description": "Home Decor & Accessories",
       "src": "/images/emails/imax.png"
     },
     {
-      "name": "impact-xm",
       "id": 17,
+      "name": "impact-xm",
+      "headline": "Impact XM",
+      "description": "Experiential Marketing",
       "src": "/images/emails/impact-xm.png"
     },
     {
-      "name": "legacy-foundation",
       "id": 18,
+      "name": "legacy-foundation",
+      "headline": "Legacy Foundation",
+      "description": "America's Stadium",
       "src": "/images/emails/legacy-foundation.png"
     },
     {
-      "name": "lucid-candle",
       "id": 19,
+      "name": "lucid-candle",
+      "headline": "Lucid Candle",
+      "description": "Candles & Home Accessories",
       "src": "/images/emails/lucid-candle.png"
     },
     {
-      "name": "myrtle-beach-golf",
       "id": 20,
+      "name": "myrtle-beach-golf",
+      "headline": "Myrtle Beach Golf",
+      "description": "Golf Packages",
       "src": "/images/emails/myrtle-beach-golf.png"
     },
     {
-      "name": "nashville-wraps",
       "id": 21,
+      "name": "nashville-wraps",
+      "headline": "Nashville Wraps",
+      "description": "Wholesale Packaging Supplies",
       "src": "/images/emails/nashville-wraps.png"
     },
     {
-      "name": "nmdp",
       "id": 22,
+      "name": "national-marrow-donor-program",
+      "headline": "National Marrow Donor Program",
+      "description": "Global Leader In Bone Marrow Transplantation",
       "src": "/images/emails/nmdp.png"
     },
     {
-      "name": "pitney-bowes",
       "id": 23,
+      "name": "pitney-bowes",
+      "headline": "Pitney Bowes",
+      "description": "Global Technology Company",
       "src": "/images/emails/pitney-bowes.png"
     },
     {
-      "name": "tripar-international",
       "id": 24,
+      "name": "tripar-international",
+      "headline": "Tripar International",
+      "description": "Visual Displays And Giftware",
       "src": "/images/emails/tripar-international.png"
     },
     {
-      "name": "twelfth-state-brands",
       "id": 25,
+      "name": "twelfth-state-brands",
+      "headline": "Twelfth State Brands",
+      "description": "Wholesale CBD, Vape Juice & E-Liquids",
       "src": "/images/emails/twelfth-state-brands.png"
     },
     {
-      "name": "yamaha-bicycles",
       "id": 26,
+      "name": "yamaha-bicycles",
+      "headline": "Yamaha Bicycles",
+      "description": "Electric Bicycles",
       "src": "/images/emails/yamaha-bicycles.jpg"
     }
   ]
