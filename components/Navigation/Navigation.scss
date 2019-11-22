@@ -1,0 +1,37 @@
+.c-Navigation {
+  display: flex;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  background-color: #ffffff;
+  padding: var(--c-07) 0;
+  width: 100%;
+  justify-content: center;
+
+  &--wrapper {
+    width: var(--main-container-size);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &.is-scrolling {
+    border-bottom: 1px solid var(--grey);
+  }
+
+  .logo {
+    height: auto;
+    max-width: 240px;
+    display: block;
+  }
+
+}
+
+.c-NavigationLink {
+  color: var(--black);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: var(--txt-base);
+  display: inline-block;
+  margin-left: var(--c-07);
+}

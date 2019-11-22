@@ -1,0 +1,18 @@
+.c-ShowcaseList {
+  &--wrapper {
+    width: var(--main-container-size);
+    margin: var(--l-05) auto 0 auto;
+  }
+
+  &--container {
+    columns: 4;
+    column-gap: var(--l-02);
+
+    .list-item {
+      width: 100%;
+      display: inline-block;
+      margin-bottom: var(--l-02);
+      background-color: var(--grey);
+    }
+  }
+}
