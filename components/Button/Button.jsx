@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './Button.scss';
 
-function Button({ href, text }) {
+function Button({ href, children }) {
   return (
     <a
       className="c-Button"
@@ -10,7 +10,7 @@ function Button({ href, text }) {
       target="_blank"
       rel="noopener noreferrer"
     >
-      {text}
+      {children}
     </a>
   );
 }

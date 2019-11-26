@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useRouter } from 'next/router';
+import { motion, useViewportScroll, useTransform } from 'framer-motion';
 import Link from 'next/link';
 import Button from '../Button';
 import './Navigation.scss';
@@ -34,25 +35,31 @@ function NavigationLink({ children, href = '/' }) {
 
 NavigationLink.propTypes = propTypes;
 
-
-const Navigation = React.forwardRef((props, ref) => (
-  <nav ref={ref} className="c-Navigation">
-    <div className="c-Navigation--wrapper">
-      <Link href="/">
-        <a>
-          <img
-            className="logo"
-            src="/images/full-color-logo.png"
-            alt="Whereoware Logo"
-          />
-        </a>
-      </Link>
-      <Button
-        href="https://www.whereoware.com/contact/"
-        text="contact sales"
-      />
-    </div>
-  </nav>
-));
+const Navigation = React.forwardRef((props, ref) => {
+  const { scrollY } = useViewportScroll();
+  const paddingResize = useTransform(scrollY, [0, 200], [40, 20]);
+  const imgResize = useTransform(scrollY, [0, 200], [240, 200]);
+  return (
+    <motion.nav ref={ref} className="c-Navigation" style={{ paddingTop: paddingResize, paddingBottom: paddingResize, boxShadow: '0px 6px 20px rgba(0, 0, 0, 0.10)' }}>
+      <div className="c-Navigation--wrapper">
+        <Link href="/">
+          <a>
+            <motion.img
+              className="logo"
+              src="/images/full-color-logo.png"
+              alt="Whereoware Logo"
+              style={{ maxWidth: imgResize }}
+            />
+          </a>
+        </Link>
+        <Button
+          href="https://www.whereoware.com/contact/"
+        >
+          contact sales
+        </Button>
+      </div>
+    </motion.nav>
+  );
+});
 
 export default Navigation;
