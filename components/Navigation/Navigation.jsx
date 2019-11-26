@@ -39,16 +39,23 @@ const Navigation = React.forwardRef((props, ref) => {
   const { scrollY } = useViewportScroll();
   const paddingResize = useTransform(scrollY, [0, 200], [40, 20]);
   const imgResize = useTransform(scrollY, [0, 200], [240, 200]);
+
   return (
     <motion.nav ref={ref} className="c-Navigation" style={{ paddingTop: paddingResize, paddingBottom: paddingResize, boxShadow: '0px 6px 20px rgba(0, 0, 0, 0.10)' }}>
       <div className="c-Navigation--wrapper">
         <Link href="/">
           <a>
             <motion.img
-              className="logo"
-              src="/images/full-color-logo.png"
+              className="logo hide"
+              src="/images/full-logo.png"
               alt="Whereoware Logo"
               style={{ maxWidth: imgResize }}
+            />
+            <img
+              className="logo-mark"
+              src="/images/logomark.png"
+              alt="Whereoware Logo"
+              style={{ maxWidth: 50 }}
             />
           </a>
         </Link>

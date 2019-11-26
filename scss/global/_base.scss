@@ -1,3 +1,9 @@
 html {
   background-color: var(--light-grey);
 }
+
+:root {
+  @include main-container-break {
+    --main-container-size: 100%;
+  }
+}

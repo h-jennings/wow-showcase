@@ -42,8 +42,8 @@ function Header({ headline = 'Brand', description = '' }) {
                 </HeaderLink>
               </div>
             </div>
-            <div className="col-right">
-              <img src="/images/devices-illustration.png" />
+            <div className="col-right hide">
+              <img src="/images/devices-illustration.png" alt="" />
             </div>
           </div>
         )

@@ -8,3 +8,27 @@
   font-size: $size;
   font-size: calculateRem($size);
 }
+
+@mixin for-phone-only {
+  @media only screen and (max-width: 599px) {
+    @content;
+  }
+}
+
+@mixin for-tablet-down {
+  @media only screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin for-laptop-down {
+  @media only screen and (max-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin main-container-break {
+  @media only screen and (max-width: 1430px) {
+    @content;
+  }
+}

@@ -1,12 +1,28 @@
+@import '../../scss/global/mixins';
+
 .c-ShowcaseList {
   &--wrapper {
     width: var(--main-container-size);
     margin: var(--l-05) auto 0 auto;
+
+    @include main-container-break {
+      padding: 0 var(--l-01);
+      margin: var(--l-03) auto 0 auto;
+    }
   }
 
   &--container {
     columns: 4;
     column-gap: var(--l-02);
+
+    @include for-laptop-down {
+      columns: 3;
+    }
+
+    @include for-tablet-down {
+      columns: 2;
+      column-gap: var(--l-01);
+    }
 
     .list-item {
       width: 100%;

@@ -1,3 +1,5 @@
+@import '../../scss/global/mixins';
+
 .c-Navigation {
   display: flex;
   position: fixed;
@@ -7,6 +9,11 @@
   padding: var(--c-07) var(--c-07);
   width: 100%;
   justify-content: center;
+
+  @include for-phone-only {
+    padding-left: var(--c-05);
+    padding-right: var(--c-05);
+  }
 
   &--wrapper {
     width: var(--main-container-size);
@@ -23,6 +30,21 @@
     height: auto;
     max-width: 240px;
     display: block;
+  }
+
+  .logo-mark {
+    display: none;
+  }
+
+  @include for-phone-only {
+
+    .logo {
+      display: none;
+    }
+
+    .logo-mark {
+      display: block;
+    }
   }
 
 }

@@ -119,3 +119,9 @@ p {
 a {
   text-decoration: none;
 }
+
+:root {
+  @include for-phone-only {
+    font-size: 18px;
+  }
+}
