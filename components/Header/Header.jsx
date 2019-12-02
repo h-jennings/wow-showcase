@@ -7,6 +7,7 @@ import './Header.scss';
 
 const HeaderPropTypes = {
   headline: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
 };
 
 function isPrimaryHeaderFn(pathName) {
@@ -22,7 +23,7 @@ function isPrimaryHeaderFn(pathName) {
   }
 }
 
-function Header({ headline = 'Brand', description = '' }) {
+function Header({ headline = 'Brand', description = 'Description' }) {
   const router = useRouter();
   const isPrimaryHeader = isPrimaryHeaderFn(router.pathname);
 

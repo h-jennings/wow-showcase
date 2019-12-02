@@ -1,0 +1,60 @@
+@import '../global/mixins';
+
+.p-detail {
+  &--wrapper {
+    width: var(--main-container-size);
+    margin: var(--l-05) auto 0 auto;
+
+    @include main-container-break {
+      margin: var(--l-03) auto 0 auto;
+    }
+  }
+
+  &--container {
+    display: flex;
+    padding: 0 var(--l-03);
+
+    @include for-tablet-down {
+      flex-flow: column nowrap;
+    }
+
+    .col {
+      &-left {
+        padding: 0 var(--l-05) 0 0;
+        flex: 1;
+      }
+
+      &-right {
+        padding: 0 0 0 var(--l-05);
+        flex: 1;
+      }
+    }
+
+    @include main-container-break {
+      .col {
+        &-left {
+          padding: 0 var(--l-03) 0 0;
+        }
+
+        &-right {
+          padding: 0 0 0 var(--l-03);
+        }
+      }
+    }
+
+    @include for-tablet-down {
+      .col {
+
+        &-left,
+        &-right {
+          padding: 0;
+        }
+      }
+    }
+
+    h2 {
+      color: var(--blue);
+      margin-bottom: var(--l-03);
+    }
+  }
+}

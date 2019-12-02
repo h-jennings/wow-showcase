@@ -1,6 +1,6 @@
 import React from 'react';
-import Link from 'next/link';
 import PropTypes from 'prop-types';
+import ShowcaseListItem from '../ShowCaseListItem';
 import './ShowcaseList.scss';
 
 
@@ -10,16 +10,7 @@ function ShowcaseList({ emails }) {
       <div className="c-ShowcaseList--wrapper">
         <div className="c-ShowcaseList--container">
           {emails.map(({ src, name }) => (
-            <div key={name} className="list-item">
-              <Link
-                href="/detail/email/[name]"
-                as={`/detail/email/${name}`}
-              >
-                <a>
-                  <img src={src} alt="" />
-                </a>
-              </Link>
-            </div>
+            <ShowcaseListItem key={name} name={name} src={src} />
           ))}
         </div>
       </div>

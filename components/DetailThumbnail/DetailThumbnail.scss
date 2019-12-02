@@ -1,0 +1,16 @@
+.c-DetailThumbnail {
+  &--wrapper {
+    display: flex;
+  }
+
+  &--container {
+    width: 50%;
+    min-height: 274px;
+    margin-right: var(--c-07);
+    background-color: var(--blue);
+
+    &:nth-last-of-type(even) {
+      margin-right: 0;
+    }
+  }
+}

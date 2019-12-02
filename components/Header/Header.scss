@@ -8,6 +8,10 @@
     padding: var(--c-09) var(--c-07);
     margin: 0 auto;
     display: flex;
+
+    @include for-tablet-down {
+      flex-flow: column nowrap;
+    }
   }
 
   h1 {
@@ -21,7 +25,7 @@
       font-size: 9vw;
     }
 
-    @include for-phone-only {
+    @include for-tablet-down {
       font-size: var(--txt-lg);
     }
   }
@@ -81,17 +85,15 @@
     flex: 1;
   }
 
+  .col-left {
+    padding: 0 var(--l-05) 0 0;
+  }
+
   .col-right {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    padding: 0 var(--c-07);
-
-    @include for-phone-only {
-      &.hide {
-        display: none;
-      }
-    }
+    padding: 0 0 0 var(--l-05);
 
     img {
       max-width: 530px;
@@ -99,6 +101,31 @@
 
       @include for-laptop-down {
         max-width: 70%;
+      }
+    }
+  }
+
+  @include main-container-break {
+    .col-left {
+      padding: 0 var(--l-03) 0 0;
+    }
+
+    .col-right {
+      padding: 0 0 0 var(--l-03);
+    }
+  }
+
+  @include for-tablet-down {
+    .col-right {
+      padding: 0;
+
+      h2 {
+        font-size: var(--txt-sm);
+        margin-top: var(--c-04);
+      }
+
+      &.hide {
+        display: none;
       }
     }
   }
