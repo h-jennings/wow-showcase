@@ -2,16 +2,16 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './DetailThumbnail.scss';
 
-/* const propTypes = {
+const propTypes = {
   src: PropTypes.string.isRequired,
-}; */
+};
 
-function DetailThumbnail() {
+function DetailThumbnail({ src }) {
   return (
-    <div className="c-DetailThumbnail--container" />
+    <div className="c-DetailThumbnail--container" style={{ backgroundImage: `url('${src}')` }} />
   );
 }
 
-// DetailThumbnail.propTypes = propTypes;
+DetailThumbnail.propTypes = propTypes;
 
 export default DetailThumbnail;

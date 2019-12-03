@@ -25,9 +25,9 @@ function Name({ email }) {
           <div className="col-right">
             <h2>See it in action</h2>
             <div className="c-DetailThumbnail--wrapper">
-              <DetailThumbnail />
-              <DetailThumbnail />
-              <DetailThumbnail />
+              <DetailThumbnail src={src} />
+              <DetailThumbnail src={src} />
+              <DetailThumbnail src={src} />
             </div>
           </div>
         </div>

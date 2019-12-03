@@ -10,6 +10,10 @@ const HeaderPropTypes = {
   description: PropTypes.string.isRequired,
 };
 
+const HeaderDefaultPropTypes = {
+  description: '',
+};
+
 function isPrimaryHeaderFn(pathName) {
   switch (true) {
   case pathName === '/':
@@ -65,5 +69,6 @@ function Header({ headline = 'Brand', description = 'Description' }) {
 }
 
 Header.propTypes = HeaderPropTypes;
+Header.defaultProps = HeaderDefaultPropTypes;
 
 export default Header;

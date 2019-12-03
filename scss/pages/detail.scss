@@ -45,6 +45,10 @@
     @include for-tablet-down {
       .col {
 
+        &-left {
+          margin-bottom: var(--l-03);
+        }
+
         &-left,
         &-right {
           padding: 0;
