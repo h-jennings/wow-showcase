@@ -1,7 +1,6 @@
 import React, { useRef, useEffect, useState } from 'react';
 import Head from 'next/head';
 import Navigation from '../Navigation';
-import './Layout.scss';
 
 function Layout({ children }) {
   const [navHeight, setNavHeight] = useState(0);

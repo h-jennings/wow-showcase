@@ -4,7 +4,6 @@ import { useRouter } from 'next/router';
 import { motion, useViewportScroll, useTransform } from 'framer-motion';
 import Link from 'next/link';
 import Button from '../Button';
-import './Navigation.scss';
 
 
 const propTypes = {

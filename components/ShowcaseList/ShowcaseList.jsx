@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ShowcaseListItem from '../ShowCaseListItem';
-import './ShowcaseList.scss';
 
 
 function ShowcaseList({ emails }) {

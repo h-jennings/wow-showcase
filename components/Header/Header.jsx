@@ -2,8 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { useRouter } from 'next/router';
 import HeaderLink from '../HeaderLink';
-import './Header.scss';
-
 
 const HeaderPropTypes = {
   headline: PropTypes.string.isRequired,

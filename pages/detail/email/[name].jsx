@@ -1,7 +1,6 @@
 import React from 'react';
 import Layout from '../../../components/Layout';
 import Header from '../../../components/Header';
-import '../../../scss/pages/detail.scss';
 import projects from '../../../data/projects';
 import DetailThumbnail from '../../../components/DetailThumbnail';
 
