@@ -8,8 +8,8 @@ function ShowcaseList({ emails }) {
     <div className="c-ShowcaseList">
       <div className="c-ShowcaseList--wrapper">
         <div className="c-ShowcaseList--container">
-          {emails.map(({ src, name }) => (
-            <ShowcaseListItem key={name} name={name} src={src} />
+          {emails.map((email) => (
+            <ShowcaseListItem key={email.name} data={email} />
           ))}
         </div>
       </div>

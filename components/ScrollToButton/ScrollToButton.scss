@@ -1,0 +1,25 @@
+.c-ScrollToButton {
+  height: var(--l-04);
+  width: var(--l-04);
+  border-radius: 50%;
+  background-color: #ffffff;
+  position: fixed;
+  display: flex;
+  right: var(--l-02);
+  bottom: var(--l-02);
+  outline: none;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: var(--boxShadow);
+
+  svg {
+    height: var(--l-01);
+  }
+
+  @include for-phone-only {
+    background-color: rgba($color: #ffffff, $alpha: 0.9);
+  }
+
+}

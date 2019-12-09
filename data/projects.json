@@ -3,6 +3,7 @@
       "id": 1,
       "name": "aaa",
       "headline": "AAA",
+      "website": "https://www.aaa.com",
       "description": "National Member Association",
       "src": "/images/emails/aaa.png"
     },
@@ -10,6 +11,7 @@
       "id": 2,
       "name": "beckers",
       "headline": "Beckers",
+      "website": "https://www.shopbecker.com",
       "description": "School Supplies",
       "src": "/images/emails/beckers.png"
     },
@@ -17,6 +19,7 @@
       "id": 3,
       "name": "billy-casper-golf",
       "headline": "Billy Casper Golf",
+      "website": "https://www.billycaspergolf.com",
       "description": "Golf Course Management",
       "src": "/images/emails/billy-casper-golf.png"
     },
@@ -24,6 +27,7 @@
       "id": 4,
       "name": "bloomingville",
       "headline": "Bloomingville",
+      "website": "https://www.bloomingville.us",
       "description": "Nordic home & interior design",
       "src": "/images/emails/bloomingville.png"
     },
@@ -31,6 +35,7 @@
       "id": 5,
       "name": "bosch",
       "headline": "Bosch",
+      "website": "https://www.bosch.us",
       "description": "Power Tools",
       "src": "/images/emails/bosch.png"
     },
@@ -38,6 +43,7 @@
       "id": 6,
       "name": "brownlow",
       "headline": "Brownlow",
+      "website": "https://www.brownlowgift.com",
       "description": "Giftable Decor",
       "src": "/images/emails/brownlow.png"
     },
@@ -45,6 +51,7 @@
       "id": 7,
       "name": "chumash-casino",
       "headline": "Chumash Casino",
+      "website": "www.chumashcasino.com",
       "description": "Entertainment Destination",
       "src": "/images/emails/chumash-casino.png"
     },
@@ -52,6 +59,7 @@
       "id": 8,
       "name": "clean-choice-energy",
       "headline": "Clean Choice Energy",
+      "website": "https://cleanchoiceenergy.com",
       "description": "Clean Energy Supplier",
       "src": "/images/emails/cleanChoice.jpg"
     },
@@ -59,6 +67,7 @@
       "id": 9,
       "name": "creative-co-op",
       "headline": "Creative Co-op",
+      "website": "https://www.creativecoop.com",
       "description": "Home, Seasonal Décor & Fashion Accessories",
       "src": "/images/emails/creative-co-op.png"
     },
@@ -66,6 +75,7 @@
       "id": 10,
       "name": "dei",
       "headline": "DEI",
+      "website": "https://www.deidirect.com",
       "description": "Gifts & More",
       "src": "/images/emails/dei.png"
     },
@@ -73,6 +83,7 @@
       "id": 11,
       "name": "ganz",
       "headline": "Ganz",
+      "website": "http://www.ganz.com/",
       "description": "Gifts & More",
       "src": "/images/emails/ganz.jpg"
     },
@@ -80,6 +91,7 @@
       "id": 12,
       "name": "ghc",
       "headline": "GHC",
+      "website": "https://www.globalhealingcenter.com",
       "description": "Natural Health Products",
       "src": "/images/emails/GHC.png"
     },
@@ -87,6 +99,7 @@
       "id": 13,
       "name": "giftcraft",
       "headline": "GiftCraft",
+      "website": "https://www.giftcraft.com/",
       "description": "Home Decor",
       "src": "/images/emails/giftcraft.png"
     },
@@ -94,6 +107,7 @@
       "id": 14,
       "name": "howard-elliot",
       "headline": "Howard Elliot",
+      "website": "https://www.howardelliott.com/",
       "description": "Decorative Mirrors & Accessories",
       "src": "/images/emails/howard-elliot.png"
     },
@@ -101,6 +115,7 @@
       "id": 15,
       "name": "ibm",
       "headline": "IBM",
+      "website": "https://www.ibm.com/",
       "description": "Multinational Information Technology",
       "src": "/images/emails/ibm.png"
     },
@@ -108,6 +123,7 @@
       "id": 16,
       "name": "imax",
       "headline": "Imax",
+      "website": "https://www.imaxcorp.com/",
       "description": "Home Decor & Accessories",
       "src": "/images/emails/imax.png"
     },
@@ -115,6 +131,7 @@
       "id": 17,
       "name": "impact-xm",
       "headline": "Impact XM",
+      "website": "https://impact-xm.com/",
       "description": "Experiential Marketing",
       "src": "/images/emails/impact-xm.png"
     },
@@ -122,6 +139,7 @@
       "id": 18,
       "name": "legacy-foundation",
       "headline": "Legacy Foundation",
+      "website": "https://www.rosebowlstadium.com/",
       "description": "America's Stadium",
       "src": "/images/emails/legacy-foundation.png"
     },
@@ -129,6 +147,7 @@
       "id": 19,
       "name": "lucid-candle",
       "headline": "Lucid Candle",
+      "website": "https://www.lucidcandle.com/",
       "description": "Candles & Home Accessories",
       "src": "/images/emails/lucid-candle.png"
     },
@@ -136,6 +155,7 @@
       "id": 20,
       "name": "myrtle-beach-golf",
       "headline": "Myrtle Beach Golf",
+      "website": "https://www.myrtlebeachgolf.com/",
       "description": "Golf Packages",
       "src": "/images/emails/myrtle-beach-golf.png"
     },
@@ -143,6 +163,7 @@
       "id": 21,
       "name": "nashville-wraps",
       "headline": "Nashville Wraps",
+      "website": "https://www.nashvillewraps.com/",
       "description": "Wholesale Packaging Supplies",
       "src": "/images/emails/nashville-wraps.png"
     },
@@ -150,6 +171,7 @@
       "id": 22,
       "name": "national-marrow-donor-program",
       "headline": "National Marrow Donor Program",
+      "website": "https://bethematch.org/",
       "description": "Global Leader In Bone Marrow Transplantation",
       "src": "/images/emails/nmdp.png"
     },
@@ -157,6 +179,7 @@
       "id": 23,
       "name": "pitney-bowes",
       "headline": "Pitney Bowes",
+      "website": "https://www.pitneybowes.com/us",
       "description": "Global Technology Company",
       "src": "/images/emails/pitney-bowes.png"
     },
@@ -164,6 +187,7 @@
       "id": 24,
       "name": "tripar-international",
       "headline": "Tripar International",
+      "website": "https://tripar.com/",
       "description": "Visual Displays And Giftware",
       "src": "/images/emails/tripar-international.png"
     },
@@ -171,6 +195,7 @@
       "id": 25,
       "name": "twelfth-state-brands",
       "headline": "Twelfth State Brands",
+      "website": "https://www.twelfthstatebrands.com/",
       "description": "Wholesale CBD, Vape Juice & E-Liquids",
       "src": "/images/emails/twelfth-state-brands.png"
     },
@@ -178,6 +203,7 @@
       "id": 26,
       "name": "yamaha-bicycles",
       "headline": "Yamaha Bicycles",
+      "website": "https://www.yamahabicycles.com/",
       "description": "Electric Bicycles",
       "src": "/images/emails/yamaha-bicycles.jpg"
     }

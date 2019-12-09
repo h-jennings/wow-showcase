@@ -1,0 +1,42 @@
+.ListItemHoverContent--container {
+  position: absolute;
+  background-color: #ffffff;
+  width: 100%;
+  border: 1px solid var(--light-grey);
+  padding: var(--c-04);
+  z-index: 2;
+  transform: translateY(-100%);
+  border-bottom: 2px solid var(--blue);
+
+  h3 {
+    color: var(--black);
+    font-weight: 700;
+    font-size: var(--txt-base);
+    margin-bottom: var(--c-03);
+    text-align: center;
+    line-height: 1;
+  }
+
+  a {
+    text-decoration: none;
+    line-height: 1;
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-size: var(--txt-xsm);
+  }
+
+
+  @include for-phone-only {
+    padding: var(--c-03);
+
+    h3 {
+      font-size: var(--txt-xsm);
+      margin-bottom: var(--c-01);
+    }
+
+    a {
+      font-size: var(--txt-xxsm);
+    }
+  }
+}

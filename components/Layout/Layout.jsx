@@ -1,6 +1,9 @@
 import React, { useRef, useEffect, useState } from 'react';
 import Head from 'next/head';
+import { useInView } from 'react-intersection-observer';
 import Navigation from '../Navigation';
+import Footer from '../Footer';
+import ScrollToButton from '../ScrollToButton';
 
 function Layout({ children }) {
   const [navHeight, setNavHeight] = useState(0);
@@ -26,6 +29,8 @@ function Layout({ children }) {
       >
         {children}
       </div>
+      <ScrollToButton />
+      <Footer />
     </div>
   );
 }

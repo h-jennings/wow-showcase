@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../../../components/Layout';
-import Header from '../../../components/Header';
+import SecondaryHeader from '../../../components/SecondaryHeader';
 import projects from '../../../data/projects';
 import DetailThumbnail from '../../../components/DetailThumbnail';
 
@@ -13,7 +13,7 @@ function Name({ email }) {
 
   return (
     <div className="p-detail">
-      <Header headline={headline} description={description} />
+      <SecondaryHeader headline={headline} description={description} />
       <main className="p-detail--wrapper">
         <div className="p-detail--container">
           <div className="col-left">

@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Layout from '../components/Layout';
-import Header from '../components/Header';
+import PrimaryHeader from '../components/PrimaryHeader';
 import ShowcaseList from '../components/ShowcaseList';
 import projects from '../data/projects';
 
@@ -13,7 +13,7 @@ function Home() {
       <Head>
         <title>Showcase - Emails</title>
       </Head>
-      <Header headline="Showcase" />
+      <PrimaryHeader headline="Showcase" />
       <ShowcaseList emails={emails} />
     </div>
   );
