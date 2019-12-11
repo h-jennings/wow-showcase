@@ -1,8 +1,12 @@
 import React from 'react';
+import { useMachine } from '@xstate/react';
+import LightBoxContext from '../../../context/LightBoxContext';
 import Layout from '../../../components/Layout';
 import SecondaryHeader from '../../../components/SecondaryHeader';
 import projects from '../../../data/projects';
 import DetailThumbnail from '../../../components/DetailThumbnail';
+import LightBox from '../../../components/LightBox';
+import LightBoxStateMachine from '../../../components/LightBox/LightBoxStateMachine';
 
 function Name({ email }) {
   const {
@@ -11,13 +15,25 @@ function Name({ email }) {
     src,
   } = email;
 
+  const [current, send] = useMachine(LightBoxStateMachine);
+
+  const openModal = () => {
+    send('OPEN');
+  };
+
   return (
     <div className="p-detail">
       <SecondaryHeader headline={headline} description={description} />
       <main className="p-detail--wrapper">
         <div className="p-detail--container">
           <div className="col-left">
-            <div className="template-image--container">
+            <div
+              className="template-image--container"
+              onClick={openModal}
+              tabIndex="0"
+              role="button"
+              onKeyPress={openModal}
+            >
               <img src={src} alt="" />
             </div>
           </div>
@@ -31,6 +47,9 @@ function Name({ email }) {
           </div>
         </div>
       </main>
+      <LightBoxContext.Provider value={{ current, send }}>
+        <LightBox data={email} />
+      </LightBoxContext.Provider>
     </div>
   );
 }

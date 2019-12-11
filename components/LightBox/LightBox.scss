@@ -1,1 +1,9 @@
-.c-LightBox {}
+.c-LightBox {
+  z-index: 999;
+  position: fixed;
+  background-color: #ffffff;
+  border-radius: var(--c-02);
+  top: 50%;
+  right: 50%;
+  padding: var(--c-07);
+}
