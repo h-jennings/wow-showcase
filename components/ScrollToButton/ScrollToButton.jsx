@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import smoothscroll from 'smoothscroll-polyfill';
+import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
 
 function ScrollToButton() {

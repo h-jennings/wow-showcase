@@ -1,6 +1,5 @@
 import React, { useRef, useEffect, useState } from 'react';
 import Head from 'next/head';
-import { useInView } from 'react-intersection-observer';
 import Navigation from '../Navigation';
 import Footer from '../Footer';
 import ScrollToButton from '../ScrollToButton';
