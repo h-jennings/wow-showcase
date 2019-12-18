@@ -9,7 +9,7 @@ function LightBox({ data }) {
     <>
       {current.matches('open') && (
         <div className="c-LightBox">
-          <h2 style={{ color: '#444444' }}>LightBox</h2>
+          <h2>LightBox</h2>
           <p>{headline}</p>
           <button type="button" onClick={() => send('CLOSE')}>x</button>
           <button type="button" onClick={() => send('SHOW_MOBILE')}>mobile</button>
