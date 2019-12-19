@@ -7,6 +7,7 @@ import projects from '../../../data/projects';
 import DetailThumbnail from '../../../components/DetailThumbnail';
 import LightBox from '../../../components/LightBox';
 import LightBoxStateMachine from '../../../components/LightBox/LightBoxStateMachine';
+import { lockScroll, unlockScroll } from '../../../utils/scroll';
 
 function Name({ email }) {
   const {
@@ -15,7 +16,9 @@ function Name({ email }) {
     src,
   } = email;
 
-  const [current, send] = useMachine(LightBoxStateMachine);
+  const [current, send] = useMachine(LightBoxStateMachine, {
+    actions: { lockScroll, unlockScroll },
+  });
 
   const openModal = () => {
     send('OPEN');

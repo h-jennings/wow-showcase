@@ -1,9 +1,39 @@
 .c-LightBox {
-  z-index: 999;
-  position: fixed;
   background-color: #ffffff;
   border-radius: var(--c-02);
-  top: 50%;
-  right: 50%;
   padding: var(--c-07);
+  margin-top: 15vw;
+  position: relative;
+
+  .c-LightBox-close {
+    background-color: #F86767;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    cursor: pointer;
+
+    svg {
+      width: 22px;
+      height: auto;
+    }
+  }
+}
+
+.c-LightBox--container {
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: rgba(#444444, 0.3);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  overflow-y: scroll;
 }

@@ -1,4 +1,5 @@
 import { Machine } from 'xstate';
+// import { lockScroll, unlockScroll } from '../../utils/scroll';
 
 
 const openedLightBoxStates = {
@@ -23,12 +24,18 @@ const lightBoxMachine = new Machine({
   states: {
     closed: {
       on: {
-        OPEN: 'open',
+        OPEN: {
+          target: 'open',
+          actions: 'lockScroll',
+        },
       },
     },
     open: {
       on: {
-        CLOSE: 'closed',
+        CLOSE: {
+          target: 'closed',
+          actions: 'unlockScroll',
+        },
       },
       ...openedLightBoxStates,
     },
