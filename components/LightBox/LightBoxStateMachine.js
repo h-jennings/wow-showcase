@@ -7,12 +7,12 @@ const openedLightBoxStates = {
   states: {
     desktop: {
       on: {
-        SHOW_MOBILE: 'mobile',
+        TOGGLE: 'mobile',
       },
     },
     mobile: {
       on: {
-        SHOW_DESKTOP: 'desktop',
+        TOGGLE: 'desktop',
       },
     },
   },

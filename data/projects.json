@@ -5,7 +5,8 @@
       "headline": "AAA",
       "website": "https://www.aaa.com",
       "description": "National Member Association",
-      "src": "/images/emails/aaa.png"
+      "src": "/images/emails/aaa.png",
+      "mobileSrc": "https://via.placeholder.com/375x1000"
     },
     {
       "id": 2,
@@ -13,7 +14,8 @@
       "headline": "Beckers",
       "website": "https://www.shopbecker.com",
       "description": "School Supplies",
-      "src": "/images/emails/beckers.png"
+      "src": "/images/emails/beckers.png",
+      "mobileSrc": "https://via.placeholder.com/375x1000"
     },
     {
       "id": 3,
@@ -21,7 +23,8 @@
       "headline": "Billy Casper Golf",
       "website": "https://www.billycaspergolf.com",
       "description": "Golf Course Management",
-      "src": "/images/emails/billy-casper-golf.png"
+      "src": "/images/emails/billy-casper-golf.png",
+      "mobileSrc": "https://via.placeholder.com/375x1000"
     },
     {
       "id": 4,
@@ -29,7 +32,8 @@
       "headline": "Bloomingville",
       "website": "https://www.bloomingville.us",
       "description": "Nordic home & interior design",
-      "src": "/images/emails/bloomingville.png"
+      "src": "/images/emails/bloomingville.png",
+      "mobileSrc": "https://via.placeholder.com/375x1000"
     },
     {
       "id": 5,
@@ -37,7 +41,8 @@
       "headline": "Bosch",
       "website": "https://www.bosch.us",
       "description": "Power Tools",
-      "src": "/images/emails/bosch.png"
+      "src": "/images/emails/bosch.png",
+      "mobileSrc": "https://via.placeholder.com/375x1000"
     },
     {
       "id": 6,
@@ -45,7 +50,8 @@
       "headline": "Brownlow",
       "website": "https://www.brownlowgift.com",
       "description": "Giftable Decor",
-      "src": "/images/emails/brownlow.png"
+      "src": "/images/emails/brownlow.png",
+      "mobileSrc": "https://via.placeholder.com/375x1000"
     },
     {
       "id": 7,
@@ -53,7 +59,8 @@
       "headline": "Chumash Casino",
       "website": "www.chumashcasino.com",
       "description": "Entertainment Destination",
-      "src": "/images/emails/chumash-casino.png"
+      "src": "/images/emails/chumash-casino.png",
+      "mobileSrc": "https://via.placeholder.com/375x1000"
     },
     {
       "id": 8,
@@ -61,7 +68,8 @@
       "headline": "Clean Choice Energy",
       "website": "https://cleanchoiceenergy.com",
       "description": "Clean Energy Supplier",
-      "src": "/images/emails/cleanChoice.jpg"
+      "src": "/images/emails/cleanChoice.jpg",
+      "mobileSrc": "https://via.placeholder.com/375x1000"
     },
     {
       "id": 9,
@@ -69,7 +77,8 @@
       "headline": "Creative Co-op",
       "website": "https://www.creativecoop.com",
       "description": "Home, Seasonal Décor & Fashion Accessories",
-      "src": "/images/emails/creative-co-op.png"
+      "src": "/images/emails/creative-co-op.png",
+      "mobileSrc": "https://via.placeholder.com/375x1000"
     },
     {
       "id": 10,
@@ -77,7 +86,8 @@
       "headline": "DEI",
       "website": "https://www.deidirect.com",
       "description": "Gifts & More",
-      "src": "/images/emails/dei.png"
+      "src": "/images/emails/dei.png",
+      "mobileSrc": "https://via.placeholder.com/375x1000"
     },
     {
       "id": 11,
@@ -85,7 +95,8 @@
       "headline": "Ganz",
       "website": "http://www.ganz.com/",
       "description": "Gifts & More",
-      "src": "/images/emails/ganz.jpg"
+      "src": "/images/emails/ganz.jpg",
+      "mobileSrc": "https://via.placeholder.com/375x1000"
     },
     {
       "id": 12,
@@ -93,7 +104,8 @@
       "headline": "GHC",
       "website": "https://www.globalhealingcenter.com",
       "description": "Natural Health Products",
-      "src": "/images/emails/GHC.png"
+      "src": "/images/emails/GHC.png",
+      "mobileSrc": "https://via.placeholder.com/375x1000"
     },
     {
       "id": 13,
@@ -101,7 +113,8 @@
       "headline": "GiftCraft",
       "website": "https://www.giftcraft.com/",
       "description": "Home Decor",
-      "src": "/images/emails/giftcraft.png"
+      "src": "/images/emails/giftcraft.png",
+      "mobileSrc": "https://via.placeholder.com/375x1000"
     },
     {
       "id": 14,
@@ -109,7 +122,8 @@
       "headline": "Howard Elliot",
       "website": "https://www.howardelliott.com/",
       "description": "Decorative Mirrors & Accessories",
-      "src": "/images/emails/howard-elliot.png"
+      "src": "/images/emails/howard-elliot.png",
+      "mobileSrc": "https://via.placeholder.com/375x1000"
     },
     {
       "id": 15,
@@ -117,7 +131,8 @@
       "headline": "IBM",
       "website": "https://www.ibm.com/",
       "description": "Multinational Information Technology",
-      "src": "/images/emails/ibm.png"
+      "src": "/images/emails/ibm.png",
+      "mobileSrc": "https://via.placeholder.com/375x1000"
     },
     {
       "id": 16,
@@ -125,7 +140,8 @@
       "headline": "Imax",
       "website": "https://www.imaxcorp.com/",
       "description": "Home Decor & Accessories",
-      "src": "/images/emails/imax.png"
+      "src": "/images/emails/imax.png",
+      "mobileSrc": "https://via.placeholder.com/375x1000"
     },
     {
       "id": 17,
@@ -133,7 +149,8 @@
       "headline": "Impact XM",
       "website": "https://impact-xm.com/",
       "description": "Experiential Marketing",
-      "src": "/images/emails/impact-xm.png"
+      "src": "/images/emails/impact-xm.png",
+      "mobileSrc": "https://via.placeholder.com/375x1000"
     },
     {
       "id": 18,
@@ -141,7 +158,8 @@
       "headline": "Legacy Foundation",
       "website": "https://www.rosebowlstadium.com/",
       "description": "America's Stadium",
-      "src": "/images/emails/legacy-foundation.png"
+      "src": "/images/emails/legacy-foundation.png",
+      "mobileSrc": "https://via.placeholder.com/375x1000"
     },
     {
       "id": 19,
@@ -149,7 +167,8 @@
       "headline": "Lucid Candle",
       "website": "https://www.lucidcandle.com/",
       "description": "Candles & Home Accessories",
-      "src": "/images/emails/lucid-candle.png"
+      "src": "/images/emails/lucid-candle.png",
+      "mobileSrc": "https://via.placeholder.com/375x1000"
     },
     {
       "id": 20,
@@ -157,7 +176,8 @@
       "headline": "Myrtle Beach Golf",
       "website": "https://www.myrtlebeachgolf.com/",
       "description": "Golf Packages",
-      "src": "/images/emails/myrtle-beach-golf.png"
+      "src": "/images/emails/myrtle-beach-golf.png",
+      "mobileSrc": "https://via.placeholder.com/375x1000"
     },
     {
       "id": 21,
@@ -165,7 +185,8 @@
       "headline": "Nashville Wraps",
       "website": "https://www.nashvillewraps.com/",
       "description": "Wholesale Packaging Supplies",
-      "src": "/images/emails/nashville-wraps.png"
+      "src": "/images/emails/nashville-wraps.png",
+      "mobileSrc": "https://via.placeholder.com/375x1000"
     },
     {
       "id": 22,
@@ -173,7 +194,8 @@
       "headline": "National Marrow Donor Program",
       "website": "https://bethematch.org/",
       "description": "Global Leader In Bone Marrow Transplantation",
-      "src": "/images/emails/nmdp.png"
+      "src": "/images/emails/nmdp.png",
+      "mobileSrc": "https://via.placeholder.com/375x1000"
     },
     {
       "id": 23,
@@ -181,7 +203,8 @@
       "headline": "Pitney Bowes",
       "website": "https://www.pitneybowes.com/us",
       "description": "Global Technology Company",
-      "src": "/images/emails/pitney-bowes.png"
+      "src": "/images/emails/pitney-bowes.png",
+      "mobileSrc": "https://via.placeholder.com/375x1000"
     },
     {
       "id": 24,
@@ -189,7 +212,8 @@
       "headline": "Tripar International",
       "website": "https://tripar.com/",
       "description": "Visual Displays And Giftware",
-      "src": "/images/emails/tripar-international.png"
+      "src": "/images/emails/tripar-international.png",
+      "mobileSrc": "https://via.placeholder.com/375x1000"
     },
     {
       "id": 25,
@@ -197,7 +221,8 @@
       "headline": "Twelfth State Brands",
       "website": "https://www.twelfthstatebrands.com/",
       "description": "Wholesale CBD, Vape Juice & E-Liquids",
-      "src": "/images/emails/twelfth-state-brands.png"
+      "src": "/images/emails/twelfth-state-brands.png",
+      "mobileSrc": "https://via.placeholder.com/375x1000"
     },
     {
       "id": 26,
@@ -205,7 +230,8 @@
       "headline": "Yamaha Bicycles",
       "website": "https://www.yamahabicycles.com/",
       "description": "Electric Bicycles",
-      "src": "/images/emails/yamaha-bicycles.jpg"
+      "src": "/images/emails/yamaha-bicycles.jpg",
+      "mobileSrc": "https://via.placeholder.com/375x1000"
     }
   ]
 }

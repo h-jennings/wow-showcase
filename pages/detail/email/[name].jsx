@@ -14,6 +14,7 @@ function Name({ email }) {
     headline,
     description,
     src,
+    mobileSrc,
   } = email;
 
   const [current, send] = useMachine(LightBoxStateMachine, {

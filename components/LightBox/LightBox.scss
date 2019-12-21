@@ -4,22 +4,71 @@
   padding: var(--c-07);
   margin-top: 15vw;
   position: relative;
+  min-width: 720px;
 
-  .c-LightBox-close {
-    background-color: #F86767;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
+  .c-LightBox-toggle {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    cursor: pointer;
+    margin-bottom: var(--c-07);
+
+    .toggle-container {
+      width: 100px;
+      height: 48px;
+      background-color: var(--light-grey);
+      border-radius: 100px;
+      display: flex;
+      align-items: center;
+      position: relative;
+      justify-content: space-between;
+    }
+
+    .toggle-circle {
+      background-color: var(--medium-grey);
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      transform: translateX(-2px);
+      z-index: 2;
+      position: absolute;
+      right: 0;
+      transform-origin: center;
+    }
+
+    .icon-container {
+      height: 44px;
+      width: 44px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .c-LightBox-icon {
+    cursor: pointer;
     outline: none;
     border: none;
-    position: absolute;
-    top: 25px;
-    right: 25px;
-    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
 
-    svg {
-      width: 22px;
-      height: auto;
+    &[data-icon-type="close"] {
+      background-color: #F86767;
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      position: absolute;
+      top: 25px;
+      right: 25px;
+
+      svg {
+        width: 22px;
+        height: auto;
+      }
     }
   }
 }
@@ -36,4 +85,10 @@
   top: 0;
   right: 0;
   overflow-y: scroll;
+
+  .image--container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
 }
