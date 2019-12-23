@@ -18,6 +18,7 @@
   }
 
   &--container {
+    @include buttonReset;
     background-color: var(--blue);
     width: 100%;
     background-size: cover;

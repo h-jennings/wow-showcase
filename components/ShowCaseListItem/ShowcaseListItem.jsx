@@ -4,14 +4,17 @@ import { motion } from 'framer-motion';
 import PropTypes from 'prop-types';
 import ListItemHoverContent from '../ListItemHoverContent/ListItemHoverContent';
 
+
 function ShowcaseListItem({ data }) {
   const {
     name,
-    src,
+    desktopSrc,
     headline,
     website,
   } = data;
+
   const [isHovered, setIsHovered] = useState(false);
+
   return (
     <motion.div
       onHoverStart={() => setIsHovered(true)}
@@ -24,11 +27,12 @@ function ShowcaseListItem({ data }) {
         hoverState={isHovered}
       />
       <Link
+        scroll={false}
         href="/detail/email/[name]"
         as={`/detail/email/${name}`}
       >
         <a>
-          <img src={src} alt="" />
+          <img src={desktopSrc} alt="" />
         </a>
       </Link>
     </motion.div>

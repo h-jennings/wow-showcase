@@ -8,6 +8,10 @@
     }
   }
 
+  .template-image--container {
+    @include buttonReset;
+  }
+
   &--container {
     display: flex;
     padding: 0 var(--l-03);

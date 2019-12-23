@@ -82,3 +82,8 @@ th {
   padding: 0;
   text-align: left;
 }
+
+button:focus {
+  outline: 2px dotted var(--blue);
+  background-color: transparent;
+}

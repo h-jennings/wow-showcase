@@ -9,7 +9,8 @@
     "sourceMaps": true,
     "smartStep": true,
     "skipFiles": [
-      "node-modules/**"
+      "node-modules/**",
+      "interpreter.js"
     ]
   }]
 }

@@ -11,10 +11,10 @@ const toggleVariants = {
   },
 };
 
-function LightBox({ data }) {
+function LightBox() {
   const machine = useContext(LightBoxContext);
   const { current, send } = machine;
-  const { headline, src, mobileSrc } = data;
+  const { lightBoxImgs: { desktop, mobile } } = current.context;
 
   function handleContainerClick(e) {
     if (e.target !== e.currentTarget) return;
@@ -60,10 +60,10 @@ function LightBox({ data }) {
             </motion.button>
             <div className="image--container">
               {current.matches('open.mobile') && (
-                <img src={mobileSrc} alt="" />
+                <img src={mobile} alt="" />
               )}
               {current.matches('open.desktop') && (
-                <img src={src} alt="" />
+                <img src={desktop} alt="" />
               )}
             </div>
           </div>

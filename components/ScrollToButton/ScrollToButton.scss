@@ -1,4 +1,5 @@
 .c-ScrollToButton {
+  @include buttonReset;
   height: var(--l-04);
   width: var(--l-04);
   border-radius: 50%;
@@ -7,11 +8,8 @@
   display: flex;
   right: var(--l-02);
   bottom: var(--l-02);
-  outline: none;
-  border: none;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
   box-shadow: var(--boxShadow);
 
   svg {

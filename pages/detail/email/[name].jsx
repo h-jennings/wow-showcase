@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useMachine } from '@xstate/react';
+import { motion } from 'framer-motion';
 import LightBoxContext from '../../../context/LightBoxContext';
 import Layout from '../../../components/Layout';
 import SecondaryHeader from '../../../components/SecondaryHeader';
@@ -8,53 +9,68 @@ import DetailThumbnail from '../../../components/DetailThumbnail';
 import LightBox from '../../../components/LightBox';
 import LightBoxStateMachine from '../../../components/LightBox/LightBoxStateMachine';
 import { lockScroll, unlockScroll } from '../../../utils/scroll';
+import { setImageSrc, resetImageSrc } from '../../../utils/lightBoxImages';
 
 function Name({ email }) {
   const {
     headline,
     description,
-    src,
+    desktopSrc,
     mobileSrc,
+    actionShots,
   } = email;
 
   const [current, send] = useMachine(LightBoxStateMachine, {
-    actions: { lockScroll, unlockScroll },
+    actions: {
+      lockScroll,
+      unlockScroll,
+      setImageSrc,
+      resetImageSrc,
+    },
   });
 
-  const openModal = () => {
-    send('OPEN');
-  };
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  function handleClick(imageData) {
+    send({ type: 'OPEN', data: imageData });
+  }
 
   return (
-    <div className="p-detail">
+    <motion.div
+      className="p-detail"
+      initial="initial"
+      animate="enter"
+      exit="exit"
+      variants={{ exit: { transition: { staggerChildren: 0.2 } } }}
+    >
       <SecondaryHeader headline={headline} description={description} />
       <main className="p-detail--wrapper">
         <div className="p-detail--container">
           <div className="col-left">
-            <div
+            <button
               className="template-image--container"
-              onClick={openModal}
-              tabIndex="0"
-              role="button"
-              onKeyPress={openModal}
+              onClick={() => handleClick({ desktopSrc, mobileSrc })}
+              type="button"
             >
-              <img src={src} alt="" />
-            </div>
+              <img src={desktopSrc} alt="" />
+            </button>
           </div>
           <div className="col-right">
             <h2>See it in action</h2>
             <div className="c-DetailThumbnail--wrapper">
-              <DetailThumbnail src={src} />
-              <DetailThumbnail src={src} />
-              <DetailThumbnail src={src} />
+              {actionShots.map((shot) => (
+                <DetailThumbnail key={shot.name} handleClick={handleClick} assets={shot} />
+              ))}
             </div>
           </div>
         </div>
       </main>
       <LightBoxContext.Provider value={{ current, send }}>
-        <LightBox data={email} />
+        <LightBox />
       </LightBoxContext.Provider>
-    </div>
+    </motion.div>
   );
 }
 
