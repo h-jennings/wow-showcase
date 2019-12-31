@@ -6,17 +6,20 @@ const propTypes = {
   handleClick: PropTypes.func.isRequired,
 };
 
-function DetailThumbnail({ assets, handleClick }) {
+const DetailThumbnail = React.forwardRef(({ assets, handleClick }, thumbnailRef) => {
   const { desktopSrc } = assets;
   return (
     <button
+      ref={thumbnailRef}
       type="button"
       className="c-DetailThumbnail--container"
       style={{ backgroundImage: `url('${desktopSrc}')` }}
       onClick={() => handleClick(assets)}
+      aria-label="Action-shot-thumbnail"
     />
   );
-}
+});
+
 
 DetailThumbnail.propTypes = propTypes;
 

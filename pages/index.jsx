@@ -5,15 +5,17 @@ import Layout from '../components/Layout';
 import PrimaryHeader from '../components/PrimaryHeader';
 import ShowcaseList from '../components/ShowcaseList';
 import projects from '../data/projects';
+import pageTransitionVariants from '../utils/pageTransistion';
 
 function Home() {
   const { emails } = projects;
 
   return (
     <motion.div
-      initial="initial"
-      animate="enter"
+      initial="enter"
       exit="exit"
+      className="p-home"
+      variants={pageTransitionVariants}
     >
       <Head>
         <title>Showcase - Emails</title>

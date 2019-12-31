@@ -10,6 +10,45 @@ import LightBox from '../../../components/LightBox';
 import LightBoxStateMachine from '../../../components/LightBox/LightBoxStateMachine';
 import { lockScroll, unlockScroll } from '../../../utils/scroll';
 import { setImageSrc, resetImageSrc } from '../../../utils/lightBoxImages';
+import pageTransitionVariants from '../../../utils/pageTransistion';
+
+const transitionValues = {
+  transition: {
+    staggerChildren: 0.1,
+  },
+};
+
+const stagger = {
+  initial: {
+    ...transitionValues,
+  },
+  enter: {
+    ...transitionValues,
+  },
+  exit: {
+    ...transitionValues,
+  },
+};
+
+const detailPageAssetVariants = {
+  initial: {
+    y: 20,
+    opacity: 0,
+    scale: 0.96,
+  },
+  enter: {
+    y: 0,
+    opacity: 1,
+    scale: 1,
+  },
+  exit: {
+    y: 100,
+    opacity: 0,
+    scale: 0.20,
+  },
+};
+
+const MotionDetailThumbnail = motion.custom(DetailThumbnail);
 
 function Name({ email }) {
   const {
@@ -29,6 +68,8 @@ function Name({ email }) {
     },
   });
 
+  const thumbnailRef = React.createRef();
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -43,27 +84,48 @@ function Name({ email }) {
       initial="initial"
       animate="enter"
       exit="exit"
-      variants={{ exit: { transition: { staggerChildren: 0.2 } } }}
+      variants={{
+        ...pageTransitionVariants,
+        transition: {
+          staggerChildren: 0.5,
+          delay: 0,
+        },
+      }}
     >
-      <SecondaryHeader headline={headline} description={description} />
+      <SecondaryHeader
+        headline={headline}
+        description={description}
+      />
       <main className="p-detail--wrapper">
         <div className="p-detail--container">
           <div className="col-left">
-            <button
+            <motion.button
               className="template-image--container"
               onClick={() => handleClick({ desktopSrc, mobileSrc })}
               type="button"
+              variants={detailPageAssetVariants}
             >
               <img src={desktopSrc} alt="" />
-            </button>
+            </motion.button>
           </div>
           <div className="col-right">
-            <h2>See it in action</h2>
-            <div className="c-DetailThumbnail--wrapper">
+            <motion.h2>
+              See it in action
+            </motion.h2>
+            <motion.div
+              className="c-DetailThumbnail--wrapper"
+              variants={stagger}
+            >
               {actionShots.map((shot) => (
-                <DetailThumbnail key={shot.name} handleClick={handleClick} assets={shot} />
+                <MotionDetailThumbnail
+                  key={shot.name}
+                  handleClick={handleClick}
+                  assets={shot}
+                  variants={detailPageAssetVariants}
+                  ref={thumbnailRef}
+                />
               ))}
-            </div>
+            </motion.div>
           </div>
         </div>
       </main>

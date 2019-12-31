@@ -11,6 +11,7 @@
   justify-content: center;
   align-items: center;
   box-shadow: var(--boxShadow);
+  transition: opacity 0.250s ease-in-out;
 
   svg {
     height: var(--l-01);
