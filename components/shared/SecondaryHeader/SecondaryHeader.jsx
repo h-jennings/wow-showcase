@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import ElementVisibilityContext from '../../context/ElementVisibilityContext';
+import ElementVisibilityContext from '../../../context/ElementVisibilityContext';
 
 
 const headerVariants = {

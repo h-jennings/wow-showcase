@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState } from 'react';
 import Head from 'next/head';
-import ElementVisibilityContext from '../../context/ElementVisibilityContext';
+import ElementVisibilityContext from '../../../context/ElementVisibilityContext';
 import Navigation from '../Navigation';
 import Footer from '../Footer';
 import ScrollToButton from '../ScrollToButton';

@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
-import Header from '../components/PrimaryHeader';
-import Layout from '../components/Layout';
+import Header from '../components/shared/PrimaryHeader';
+import Layout from '../components/shared/Layout';
 
 function LandingPages() {
   return (

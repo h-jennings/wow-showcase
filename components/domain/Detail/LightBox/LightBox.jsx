@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { motion } from 'framer-motion';
-import LightBoxContext from '../../context/LightBoxContext';
+import LightBoxContext from '../../../../context/LightBoxContext';
 
 const toggleVariants = {
   desktop: {

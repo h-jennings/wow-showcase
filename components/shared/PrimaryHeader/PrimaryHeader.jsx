@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { useInView } from 'react-intersection-observer';
-import ElementVisibilityContext from '../../context/ElementVisibilityContext';
+import ElementVisibilityContext from '../../../context/ElementVisibilityContext';
 import HeaderLink from '../HeaderLink';
 
 const HeaderPropTypes = {

@@ -1,9 +1,9 @@
 import React from 'react';
 import Head from 'next/head';
 import { motion } from 'framer-motion';
-import Layout from '../components/Layout';
-import PrimaryHeader from '../components/PrimaryHeader';
-import ShowcaseList from '../components/ShowcaseList';
+import Layout from '../components/shared/Layout';
+import PrimaryHeader from '../components/shared/PrimaryHeader';
+import ShowcaseList from '../components/domain/Home/ShowcaseList';
 import projects from '../data/projects';
 import pageTransitionVariants from '../utils/pageTransistion';
 

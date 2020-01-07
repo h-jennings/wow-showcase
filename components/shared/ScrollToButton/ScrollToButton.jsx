@@ -1,7 +1,7 @@
 import React, { useEffect, useContext } from 'react';
 import smoothscroll from 'smoothscroll-polyfill';
 import { motion } from 'framer-motion';
-import ElementVisibilityContext from '../../context/ElementVisibilityContext';
+import ElementVisibilityContext from '../../../context/ElementVisibilityContext';
 
 function ScrollToButton() {
   const visibilityContext = useContext(ElementVisibilityContext);
