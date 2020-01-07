@@ -201,6 +201,11 @@
           "name": "clean-choice-energy_action_4",
           "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop+4",
           "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
+        },
+        {
+          "name": "clean-choice-energy_action_5",
+          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop+5",
+          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
         }
       ]
     },

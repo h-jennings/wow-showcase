@@ -11,6 +11,46 @@ const toggleVariants = {
   },
 };
 
+const staggerModalTransition = {
+  transition: {
+    staggerChildren: 0.250,
+  },
+};
+
+const modalContainerVariants = {
+  initial: {
+    opacity: 0,
+    ...staggerModalTransition,
+  },
+  enter: {
+    opacity: 1,
+    ...staggerModalTransition,
+  },
+  exit: {
+    opacity: 0,
+    ...staggerModalTransition,
+  },
+};
+
+const modalVariants = {
+  initial: {
+    opacity: 0,
+    y: 20,
+  },
+  enter: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      delay: 0.5,
+    },
+  },
+  exit: {
+    opacity: 0,
+    y: 20,
+    delay: 0.2,
+  },
+};
+
 function LightBox() {
   const machine = useContext(LightBoxContext);
   const { current, send } = machine;
@@ -24,8 +64,16 @@ function LightBox() {
   return (
     <>
       {current.matches('open') && (
-        <div className="c-LightBox--container" onClick={handleContainerClick}>
-          <div className="c-LightBox">
+        <motion.div
+          className="c-LightBox--container"
+          onClick={handleContainerClick}
+          role="modal"
+          variants={modalContainerVariants}
+        >
+          <motion.div
+            className="c-LightBox"
+            variants={modalVariants}
+          >
             <button
               initial="desktop"
               type="button"
@@ -66,8 +114,8 @@ function LightBox() {
                 <img src={desktop} alt="" />
               )}
             </div>
-          </div>
-        </div>
+          </motion.div>
+        </motion.div>
       )}
     </>
   );

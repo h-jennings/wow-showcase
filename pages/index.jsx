@@ -12,7 +12,8 @@ function Home() {
 
   return (
     <motion.div
-      initial="enter"
+      initial="initial"
+      animate="enter"
       exit="exit"
       className="p-home"
       variants={pageTransitionVariants}

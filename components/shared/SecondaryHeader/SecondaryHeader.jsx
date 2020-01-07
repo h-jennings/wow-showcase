@@ -1,27 +1,6 @@
 import React, { useContext, useEffect } from 'react';
-import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import ElementVisibilityContext from '../../../context/ElementVisibilityContext';
-
-
-const headerVariants = {
-  initial: {
-    opacity: 0,
-  },
-  enter: {
-    opacity: 1,
-    transition: {
-      delay: 0.3,
-    },
-  },
-  exit: {
-    opacity: 0,
-    transition: {
-      delay: 0.3,
-    },
-  },
-};
-
 
 function SecondaryHeader({ headline, description }) {
   const visibilityContext = useContext(ElementVisibilityContext);
@@ -46,17 +25,14 @@ function SecondaryHeader({ headline, description }) {
     <header ref={ref} className="c-Header secondary">
       <div className="c-Header--wrapper">
         <div className="col-left">
-          <motion.h1
-            style={{ marginBottom: 0 }}
-            variants={headerVariants}
-          >
+          <h1 style={{ marginBottom: 0 }}>
             {headline}
-          </motion.h1>
+          </h1>
         </div>
         <div className="col-right" style={{ justifyContent: 'flex-start' }}>
-          <motion.h2 variants={headerVariants}>
+          <h2>
             {description}
-          </motion.h2>
+          </h2>
         </div>
       </div>
     </header>

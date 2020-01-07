@@ -14,7 +14,7 @@ import pageTransitionVariants from '../../../utils/pageTransistion';
 
 const transitionValues = {
   transition: {
-    staggerChildren: 0.1,
+    staggerChildren: 0.2,
   },
 };
 
@@ -25,8 +25,15 @@ const stagger = {
   enter: {
     ...transitionValues,
   },
+};
+
+const containerVariants = {
   exit: {
-    ...transitionValues,
+    opacity: 0,
+    y: 50,
+    transition: {
+      duration: 0.3,
+    },
   },
 };
 
@@ -40,11 +47,6 @@ const detailPageAssetVariants = {
     y: 0,
     opacity: 1,
     scale: 1,
-  },
-  exit: {
-    y: 100,
-    opacity: 0,
-    scale: 0.20,
   },
 };
 
@@ -88,7 +90,7 @@ function Name({ email }) {
         ...pageTransitionVariants,
         transition: {
           staggerChildren: 0.5,
-          delay: 0,
+          delay: 0.2,
         },
       }}
     >
@@ -96,7 +98,10 @@ function Name({ email }) {
         headline={headline}
         description={description}
       />
-      <main className="p-detail--wrapper">
+      <motion.main
+        className="p-detail--wrapper"
+        variants={containerVariants}
+      >
         <div className="p-detail--container">
           <div className="col-left">
             <motion.button
@@ -109,9 +114,7 @@ function Name({ email }) {
             </motion.button>
           </div>
           <div className="col-right">
-            <motion.h2>
-              See it in action
-            </motion.h2>
+            <h2>See it in action</h2>
             <motion.div
               className="c-DetailThumbnail--wrapper"
               variants={stagger}
@@ -128,7 +131,7 @@ function Name({ email }) {
             </motion.div>
           </div>
         </div>
-      </main>
+      </motion.main>
       <LightBoxContext.Provider value={{ current, send }}>
         <LightBox />
       </LightBoxContext.Provider>
