@@ -19,7 +19,7 @@ function Home() {
       variants={pageTransitionVariants}
     >
       <Head>
-        <title>Showcase - Emails</title>
+        <title>Showcase</title>
       </Head>
       <PrimaryHeader headline="Showcase" />
       <ShowcaseList emails={emails} />
