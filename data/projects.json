@@ -1,6 +1,5 @@
 {
   "emails": [{
-      "id": 1,
       "name": "aaa",
       "headline": "AAA",
       "website": "https://www.aaa.com",
@@ -25,7 +24,6 @@
       ]
     },
     {
-      "id": 2,
       "name": "beckers",
       "headline": "Beckers",
       "website": "https://www.shopbecker.com",
@@ -34,23 +32,27 @@
       "mobileSrc": "https://via.placeholder.com/375x1000",
       "actionShots": [{
           "name": "beckers_action_1",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
+          "desktopSrc": "/images/emails/beckers/email_1_desktop.png",
+          "mobileSrc": "/images/emails/beckers/email_1_mobile.png"
         },
         {
           "name": "beckers_action_2",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
+          "desktopSrc": "/images/emails/beckers/email_2_desktop.png",
+          "mobileSrc": "/images/emails/beckers/email_2_mobile.png"
         },
         {
           "name": "beckers_action_3",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
+          "desktopSrc": "/images/emails/beckers/email_3_desktop.png",
+          "mobileSrc": "/images/emails/beckers/email_3_mobile.png"
+        },
+        {
+          "name": "beckers_action_4",
+          "desktopSrc": "/images/emails/beckers/email_4_desktop.png",
+          "mobileSrc": "/images/emails/beckers/email_4_mobile.png"
         }
       ]
     },
     {
-      "id": 3,
       "name": "billy-casper-golf",
       "headline": "Billy Casper Golf",
       "website": "https://www.billycaspergolf.com",
@@ -75,7 +77,6 @@
       ]
     },
     {
-      "id": 4,
       "name": "bloomingville",
       "headline": "Bloomingville",
       "website": "https://www.bloomingville.us",
@@ -84,23 +85,27 @@
       "mobileSrc": "https://via.placeholder.com/375x1000",
       "actionShots": [{
           "name": "bloomingville_action_1",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
+          "desktopSrc": "/images/emails/bloomingville/email_1_desktop.png",
+          "mobileSrc": "/images/emails/bloomingville/email_1_mobile.png"
         },
         {
           "name": "bloomingville_action_2",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
+          "desktopSrc": "/images/emails/bloomingville/email_2_desktop.png",
+          "mobileSrc": "/images/emails/bloomingville/email_2_mobile.png"
         },
         {
           "name": "bloomingville_action_3",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
+          "desktopSrc": "/images/emails/bloomingville/email_3_desktop.png",
+          "mobileSrc": "/images/emails/bloomingville/email_3_mobile.png"
+        },
+        {
+          "name": "bloomingville_action_4",
+          "desktopSrc": "/images/emails/bloomingville/email_4_desktop.png",
+          "mobileSrc": "/images/emails/bloomingville/email_4_mobile.png"
         }
       ]
     },
     {
-      "id": 5,
       "name": "bosch",
       "headline": "Bosch",
       "website": "https://www.bosch.us",
@@ -125,7 +130,6 @@
       ]
     },
     {
-      "id": 6,
       "name": "brownlow",
       "headline": "Brownlow",
       "website": "https://www.brownlowgift.com",
@@ -134,23 +138,22 @@
       "mobileSrc": "https://via.placeholder.com/375x1000",
       "actionShots": [{
           "name": "brownlow_action_1",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
+          "desktopSrc": "/images/emails/brownlow/email_1_desktop.png",
+          "mobileSrc": "/images/emails/brownlow/email_1_mobile.png"
         },
         {
           "name": "brownlow_action_2",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
+          "desktopSrc": "/images/emails/brownlow/email_2_desktop.png",
+          "mobileSrc": "/images/emails/brownlow/email_2_mobile.png"
         },
         {
           "name": "brownlow_action_3",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
+          "desktopSrc": "/images/emails/brownlow/email_3_desktop.png",
+          "mobileSrc": "/images/emails/brownlow/email_3_mobile.png"
         }
       ]
     },
     {
-      "id": 7,
       "name": "chumash-casino",
       "headline": "Chumash Casino",
       "website": "www.chumashcasino.com",
@@ -175,42 +178,30 @@
       ]
     },
     {
-      "id": 8,
       "name": "clean-choice-energy",
       "headline": "Clean Choice Energy",
       "website": "https://cleanchoiceenergy.com",
       "description": "Clean Energy Supplier",
-      "desktopSrc": "/images/emails/clean-choice-energy/cleanChoice.jpg",
+      "desktopSrc": "/images/emails/cleanChoice/cleanChoice.jpg",
       "mobileSrc": "https://via.placeholder.com/375x1000",
       "actionShots": [{
           "name": "clean-choice-energy_action_1",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
+          "desktopSrc": "/images/emails/cleanChoice/email_1_desktop.png",
+          "mobileSrc": "/images/emails/cleanChoice/email_1_mobile.png"
         },
         {
           "name": "clean-choice-energy_action_2",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
+          "desktopSrc": "/images/emails/cleanChoice/email_2_desktop.png",
+          "mobileSrc": "/images/emails/cleanChoice/email_2_mobile.png"
         },
         {
           "name": "clean-choice-energy_action_3",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        },
-        {
-          "name": "clean-choice-energy_action_4",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop+4",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        },
-        {
-          "name": "clean-choice-energy_action_5",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop+5",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
+          "desktopSrc": "/images/emails/cleanChoice/email_3_desktop.png",
+          "mobileSrc": "/images/emails/cleanChoice/email_3_mobile.png"
         }
       ]
     },
     {
-      "id": 9,
       "name": "creative-co-op",
       "headline": "Creative Co-op",
       "website": "https://www.creativecoop.com",
@@ -219,23 +210,56 @@
       "mobileSrc": "https://via.placeholder.com/375x1000",
       "actionShots": [{
           "name": "creative-co-op_action_1",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
+          "desktopSrc": "/images/emails/creative-co-op/email_1_desktop.png",
+          "mobileSrc": "/images/emails/creative-co-op/email_1_mobile.png"
         },
         {
           "name": "creative-co-op_action_2",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
+          "desktopSrc": "/images/emails/creative-co-op/email_2_desktop.png",
+          "mobileSrc": "/images/emails/creative-co-op/email_2_mobile.png"
         },
         {
           "name": "creative-co-op_action_3",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
+          "desktopSrc": "/images/emails/creative-co-op/email_3_desktop.png",
+          "mobileSrc": "/images/emails/creative-co-op/email_3_mobile.png"
+        },
+        {
+          "name": "creative-co-op_action_4",
+          "desktopSrc": "/images/emails/creative-co-op/email_4_desktop.png",
+          "mobileSrc": "/images/emails/creative-co-op/email_4_mobile.png"
+        },
+        {
+          "name": "creative-co-op_action_5",
+          "desktopSrc": "/images/emails/creative-co-op/email_5_desktop.png",
+          "mobileSrc": "/images/emails/creative-co-op/email_5_mobile.png"
         }
       ]
     },
     {
-      "id": 10,
+      "name": "cuisinart",
+      "headline": "Cuisinart",
+      "website": "https://www.cuisinart.com/",
+      "description": "Turning The Art Of Great Cooking Into An American Lifestyle",
+      "desktopSrc": "/images/emails/cuisinart/master.png",
+      "mobileSrc": "/images/emails/cuisinart/master_mobile.png",
+      "actionShots": [{
+          "name": "cuisinart_action_1",
+          "desktopSrc": "/images/emails/cuisinart/email_1_desktop.jpg",
+          "mobileSrc": "/images/emails/cuisinart/email_1_mobile.jpg"
+        },
+        {
+          "name": "cuisinart_action_2",
+          "desktopSrc": "/images/emails/cuisinart/email_2_desktop.png",
+          "mobileSrc": "/images/emails/cuisinart/email_2_mobile.png"
+        },
+        {
+          "name": "cuisinart_action_3",
+          "desktopSrc": "/images/emails/cuisinart/email_3_desktop.jpg",
+          "mobileSrc": "/images/emails/cuisinart/email_3_mobile.png"
+        }
+      ]
+    },
+    {
       "name": "dei",
       "headline": "DEI",
       "website": "https://www.deidirect.com",
@@ -260,7 +284,6 @@
       ]
     },
     {
-      "id": 11,
       "name": "ganz",
       "headline": "Ganz",
       "website": "http://www.ganz.com/",
@@ -269,23 +292,32 @@
       "mobileSrc": "https://via.placeholder.com/375x1000",
       "actionShots": [{
           "name": "ganz_action_1",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
+          "desktopSrc": "/images/emails/ganz/email_1_desktop.png",
+          "mobileSrc": "/images/emails/ganz/email_1_mobile.png"
         },
         {
           "name": "ganz_action_2",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
+          "desktopSrc": "/images/emails/ganz/email_2_desktop.png",
+          "mobileSrc": "/images/emails/ganz/email_2_mobile.png"
         },
         {
           "name": "ganz_action_3",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
+          "desktopSrc": "/images/emails/ganz/email_3_desktop.png",
+          "mobileSrc": "/images/emails/ganz/email_3_mobile.png"
+        },
+        {
+          "name": "ganz_action_4",
+          "desktopSrc": "/images/emails/ganz/email_4_desktop.png",
+          "mobileSrc": "/images/emails/ganz/email_4_mobile.png"
+        },
+        {
+          "name": "ganz_action_5",
+          "desktopSrc": "/images/emails/ganz/email_5_desktop.png",
+          "mobileSrc": "/images/emails/ganz/email_5_mobile.jpg"
         }
       ]
     },
     {
-      "id": 12,
       "name": "ghc",
       "headline": "GHC",
       "website": "https://www.globalhealingcenter.com",
@@ -310,7 +342,6 @@
       ]
     },
     {
-      "id": 13,
       "name": "giftcraft",
       "headline": "GiftCraft",
       "website": "https://www.giftcraft.com/",
@@ -335,7 +366,6 @@
       ]
     },
     {
-      "id": 14,
       "name": "howard-elliot",
       "headline": "Howard Elliot",
       "website": "https://www.howardelliott.com/",
@@ -360,7 +390,6 @@
       ]
     },
     {
-      "id": 15,
       "name": "ibm",
       "headline": "IBM",
       "website": "https://www.ibm.com/",
@@ -385,7 +414,6 @@
       ]
     },
     {
-      "id": 16,
       "name": "imax",
       "headline": "Imax",
       "website": "https://www.imaxcorp.com/",
@@ -394,23 +422,32 @@
       "mobileSrc": "https://via.placeholder.com/375x1000",
       "actionShots": [{
           "name": "imax_action_1",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
+          "desktopSrc": "/images/emails/imax/email_1_desktop.png",
+          "mobileSrc": "/images/emails/imax/email_1_mobile.png"
         },
         {
           "name": "imax_action_2",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
+          "desktopSrc": "/images/emails/imax/email_2_desktop.png",
+          "mobileSrc": "/images/emails/imax/email_2_mobile.png"
         },
         {
           "name": "imax_action_3",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
+          "desktopSrc": "/images/emails/imax/email_3_desktop.png",
+          "mobileSrc": "/images/emails/imax/email_3_mobile.png"
+        },
+        {
+          "name": "imax_action_4",
+          "desktopSrc": "/images/emails/imax/email_4_desktop.png",
+          "mobileSrc": "/images/emails/imax/email_4_mobile.png"
+        },
+        {
+          "name": "imax_action_5",
+          "desktopSrc": "/images/emails/imax/email_5_desktop.png",
+          "mobileSrc": "/images/emails/imax/email_5_mobile.png"
         }
       ]
     },
     {
-      "id": 17,
       "name": "impact-xm",
       "headline": "Impact XM",
       "website": "https://impact-xm.com/",
@@ -435,7 +472,6 @@
       ]
     },
     {
-      "id": 18,
       "name": "legacy-foundation",
       "headline": "Legacy Foundation",
       "website": "https://www.rosebowlstadium.com/",
@@ -444,23 +480,27 @@
       "mobileSrc": "https://via.placeholder.com/375x1000",
       "actionShots": [{
           "name": "legacy-foundation_action_1",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
+          "desktopSrc": "/images/emails/legacy-foundation/email_1_desktop.jpg",
+          "mobileSrc": "/images/emails/legacy-foundation/email_1_mobile.png"
         },
         {
           "name": "legacy-foundation_action_2",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
+          "desktopSrc": "/images/emails/legacy-foundation/email_2_desktop.png",
+          "mobileSrc": "/images/emails/legacy-foundation/email_2_mobile.png"
         },
         {
           "name": "legacy-foundation_action_3",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
+          "desktopSrc": "/images/emails/legacy-foundation/email_3_desktop.jpg",
+          "mobileSrc": "/images/emails/legacy-foundation/email_3_mobile.png"
+        },
+        {
+          "name": "legacy-foundation_action_4",
+          "desktopSrc": "/images/emails/legacy-foundation/email_4_desktop.png",
+          "mobileSrc": "/images/emails/legacy-foundation/email_4_mobile.png"
         }
       ]
     },
     {
-      "id": 19,
       "name": "lucid-candle",
       "headline": "Lucid Candle",
       "website": "https://www.lucidcandle.com/",
@@ -485,7 +525,6 @@
       ]
     },
     {
-      "id": 20,
       "name": "myrtle-beach-golf",
       "headline": "Myrtle Beach Golf",
       "website": "https://www.myrtlebeachgolf.com/",
@@ -510,7 +549,6 @@
       ]
     },
     {
-      "id": 21,
       "name": "nashville-wraps",
       "headline": "Nashville Wraps",
       "website": "https://www.nashvillewraps.com/",
@@ -535,12 +573,11 @@
       ]
     },
     {
-      "id": 22,
       "name": "national-marrow-donor-program",
       "headline": "National Marrow Donor Program",
       "website": "https://bethematch.org/",
       "description": "Global Leader In Bone Marrow Transplantation",
-      "desktopSrc": "/images/emails/national-marrow-donor-program/nmdp.png",
+      "desktopSrc": "/images/emails/nmdp/nmdp.png",
       "mobileSrc": "https://via.placeholder.com/375x1000",
       "actionShots": [{
           "name": "national-marrow-donor-program_action_1",
@@ -560,7 +597,6 @@
       ]
     },
     {
-      "id": 23,
       "name": "pitney-bowes",
       "headline": "Pitney Bowes",
       "website": "https://www.pitneybowes.com/us",
@@ -585,7 +621,6 @@
       ]
     },
     {
-      "id": 24,
       "name": "tripar-international",
       "headline": "Tripar International",
       "website": "https://tripar.com/",
@@ -610,7 +645,6 @@
       ]
     },
     {
-      "id": 25,
       "name": "twelfth-state-brands",
       "headline": "Twelfth State Brands",
       "website": "https://www.twelfthstatebrands.com/",
@@ -635,7 +669,6 @@
       ]
     },
     {
-      "id": 26,
       "name": "yamaha-bicycles",
       "headline": "Yamaha Bicycles",
       "website": "https://www.yamahabicycles.com/",
@@ -644,18 +677,23 @@
       "mobileSrc": "https://via.placeholder.com/375x1000",
       "actionShots": [{
           "name": "yamaha-bicycles_action_1",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
+          "desktopSrc": "/images/emails/yamaha-bicycles/email_1_desktop.png",
+          "mobileSrc": "/images/emails/yamaha-bicycles/email_1_mobile.png"
         },
         {
           "name": "yamaha-bicycles_action_2",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
+          "desktopSrc": "/images/emails/yamaha-bicycles/email_2_desktop.png",
+          "mobileSrc": "/images/emails/yamaha-bicycles/email_2_mobile.png"
         },
         {
           "name": "yamaha-bicycles_action_3",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
+          "desktopSrc": "/images/emails/yamaha-bicycles/email_3_desktop.png",
+          "mobileSrc": "/images/emails/yamaha-bicycles/email_3_mobile.png"
+        },
+        {
+          "name": "yamaha-bicycles_action_4",
+          "desktopSrc": "/images/emails/yamaha-bicycles/email_4_desktop.png",
+          "mobileSrc": "/images/emails/yamaha-bicycles/email_4_mobile.png"
         }
       ]
     }
