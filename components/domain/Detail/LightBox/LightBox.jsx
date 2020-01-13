@@ -108,10 +108,10 @@ function LightBox() {
             </motion.button>
             <div className="image--container">
               {current.matches('open.mobile') && (
-                <img src={mobile} alt="" />
+                mobile ? <img src={mobile} alt="" /> : <p>No image available</p>
               )}
               {current.matches('open.desktop') && (
-                <img src={desktop} alt="" />
+                desktop ? <img src={desktop} alt="" /> : <p>No image available</p>
               )}
             </div>
           </motion.div>

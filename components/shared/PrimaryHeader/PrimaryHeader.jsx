@@ -36,9 +36,6 @@ function PrimaryHeader({ headline = 'Brand' }) {
             <HeaderLink href="/">
               email
             </HeaderLink>
-            <HeaderLink href="/landing-pages">
-              landing pages
-            </HeaderLink>
           </div>
         </div>
         <div className="col-right hide">

@@ -1,35 +1,11 @@
 {
   "emails": [{
-      "name": "aaa",
-      "headline": "AAA",
-      "website": "https://www.aaa.com",
-      "description": "National Member Association",
-      "desktopSrc": "/images/emails/aaa/aaa.png",
-      "mobileSrc": "https://via.placeholder.com/375x1000",
-      "actionShots": [{
-          "name": "aaa_action_1",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        },
-        {
-          "name": "aaa_action_2",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        },
-        {
-          "name": "aaa_action_3",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        }
-      ]
-    },
-    {
       "name": "beckers",
       "headline": "Beckers",
       "website": "https://www.shopbecker.com",
       "description": "School Supplies",
       "desktopSrc": "/images/emails/beckers/beckers.png",
-      "mobileSrc": "https://via.placeholder.com/375x1000",
+      "mobileSrc": null,
       "actionShots": [{
           "name": "beckers_action_1",
           "desktopSrc": "/images/emails/beckers/email_1_desktop.png",
@@ -53,36 +29,12 @@
       ]
     },
     {
-      "name": "billy-casper-golf",
-      "headline": "Billy Casper Golf",
-      "website": "https://www.billycaspergolf.com",
-      "description": "Golf Course Management",
-      "desktopSrc": "/images/emails/billy-casper-golf/billy-casper-golf.png",
-      "mobileSrc": "https://via.placeholder.com/375x1000",
-      "actionShots": [{
-          "name": "billy-casper-golf_action_1",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        },
-        {
-          "name": "billy-casper-golf_action_2",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        },
-        {
-          "name": "billy-casper-golf_action_3",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        }
-      ]
-    },
-    {
       "name": "bloomingville",
       "headline": "Bloomingville",
       "website": "https://www.bloomingville.us",
       "description": "Nordic home & interior design",
       "desktopSrc": "/images/emails/bloomingville/bloomingville.png",
-      "mobileSrc": "https://via.placeholder.com/375x1000",
+      "mobileSrc": null,
       "actionShots": [{
           "name": "bloomingville_action_1",
           "desktopSrc": "/images/emails/bloomingville/email_1_desktop.png",
@@ -106,36 +58,12 @@
       ]
     },
     {
-      "name": "bosch",
-      "headline": "Bosch",
-      "website": "https://www.bosch.us",
-      "description": "Power Tools",
-      "desktopSrc": "/images/emails/bosch/bosch.png",
-      "mobileSrc": "https://via.placeholder.com/375x1000",
-      "actionShots": [{
-          "name": "bosch_action_1",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        },
-        {
-          "name": "bosch_action_2",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        },
-        {
-          "name": "bosch_action_3",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        }
-      ]
-    },
-    {
       "name": "brownlow",
       "headline": "Brownlow",
       "website": "https://www.brownlowgift.com",
       "description": "Giftable Decor",
       "desktopSrc": "/images/emails/brownlow/brownlow.png",
-      "mobileSrc": "https://via.placeholder.com/375x1000",
+      "mobileSrc": null,
       "actionShots": [{
           "name": "brownlow_action_1",
           "desktopSrc": "/images/emails/brownlow/email_1_desktop.png",
@@ -154,36 +82,12 @@
       ]
     },
     {
-      "name": "chumash-casino",
-      "headline": "Chumash Casino",
-      "website": "www.chumashcasino.com",
-      "description": "Entertainment Destination",
-      "desktopSrc": "/images/emails/chumash-casino/chumash-casino.png",
-      "mobileSrc": "https://via.placeholder.com/375x1000",
-      "actionShots": [{
-          "name": "chumash-casino_action_1",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        },
-        {
-          "name": "chumash-casino_action_2",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        },
-        {
-          "name": "chumash-casino_action_3",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        }
-      ]
-    },
-    {
       "name": "clean-choice-energy",
       "headline": "Clean Choice Energy",
       "website": "https://cleanchoiceenergy.com",
       "description": "Clean Energy Supplier",
       "desktopSrc": "/images/emails/cleanChoice/cleanChoice.jpg",
-      "mobileSrc": "https://via.placeholder.com/375x1000",
+      "mobileSrc": null,
       "actionShots": [{
           "name": "clean-choice-energy_action_1",
           "desktopSrc": "/images/emails/cleanChoice/email_1_desktop.png",
@@ -207,7 +111,7 @@
       "website": "https://www.creativecoop.com",
       "description": "Home, Seasonal Décor & Fashion Accessories",
       "desktopSrc": "/images/emails/creative-co-op/creative-co-op.png",
-      "mobileSrc": "https://via.placeholder.com/375x1000",
+      "mobileSrc": null,
       "actionShots": [{
           "name": "creative-co-op_action_1",
           "desktopSrc": "/images/emails/creative-co-op/email_1_desktop.png",
@@ -265,21 +169,36 @@
       "website": "https://www.deidirect.com",
       "description": "Gifts & More",
       "desktopSrc": "/images/emails/dei/dei.png",
-      "mobileSrc": "https://via.placeholder.com/375x1000",
+      "mobileSrc": null,
       "actionShots": [{
           "name": "dei_action_1",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
+          "desktopSrc": "/images/emails/dei/email_1_desktop.png",
+          "mobileSrc": "/images/emails/dei/email_1_mobile.png"
         },
         {
           "name": "dei_action_2",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
+          "desktopSrc": "/images/emails/dei/email_2_desktop.png",
+          "mobileSrc": "/images/emails/dei/email_2_mobile.png"
         },
         {
           "name": "dei_action_3",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
+          "desktopSrc": "/images/emails/dei/email_3_desktop.png",
+          "mobileSrc": "/images/emails/dei/email_3_mobile.png"
+        },
+        {
+          "name": "dei_action_4",
+          "desktopSrc": "/images/emails/dei/email_4_desktop.png",
+          "mobileSrc": "/images/emails/dei/email_4_mobile.png"
+        },
+        {
+          "name": "dei_action_5",
+          "desktopSrc": "/images/emails/dei/email_5_desktop.png",
+          "mobileSrc": "/images/emails/dei/email_5_mobile.png"
+        },
+        {
+          "name": "dei_action_6",
+          "desktopSrc": "/images/emails/dei/email_6_desktop.png",
+          "mobileSrc": "/images/emails/dei/email_6_mobile.png"
         }
       ]
     },
@@ -289,7 +208,7 @@
       "website": "http://www.ganz.com/",
       "description": "Gifts & More",
       "desktopSrc": "/images/emails/ganz/ganz.jpg",
-      "mobileSrc": "https://via.placeholder.com/375x1000",
+      "mobileSrc": null,
       "actionShots": [{
           "name": "ganz_action_1",
           "desktopSrc": "/images/emails/ganz/email_1_desktop.png",
@@ -318,98 +237,31 @@
       ]
     },
     {
-      "name": "ghc",
-      "headline": "GHC",
-      "website": "https://www.globalhealingcenter.com",
-      "description": "Natural Health Products",
-      "desktopSrc": "/images/emails/ghc/GHC.png",
-      "mobileSrc": "https://via.placeholder.com/375x1000",
-      "actionShots": [{
-          "name": "ghc_action_1",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        },
-        {
-          "name": "ghc_action_2",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        },
-        {
-          "name": "ghc_action_3",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        }
-      ]
-    },
-    {
       "name": "giftcraft",
       "headline": "GiftCraft",
       "website": "https://www.giftcraft.com/",
       "description": "Home Decor",
       "desktopSrc": "/images/emails/giftcraft/giftcraft.png",
-      "mobileSrc": "https://via.placeholder.com/375x1000",
+      "mobileSrc": null,
       "actionShots": [{
           "name": "giftcraft_action_1",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
+          "desktopSrc": "/images/emails/giftcraft/email_1_desktop.png",
+          "mobileSrc": "/images/emails/giftcraft/email_1_mobile.png"
         },
         {
           "name": "giftcraft_action_2",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
+          "desktopSrc": "/images/emails/giftcraft/email_2_desktop.png",
+          "mobileSrc": "/images/emails/giftcraft/email_2_mobile.png"
         },
         {
           "name": "giftcraft_action_3",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        }
-      ]
-    },
-    {
-      "name": "howard-elliot",
-      "headline": "Howard Elliot",
-      "website": "https://www.howardelliott.com/",
-      "description": "Decorative Mirrors & Accessories",
-      "desktopSrc": "/images/emails/howard-elliot/howard-elliot.png",
-      "mobileSrc": "https://via.placeholder.com/375x1000",
-      "actionShots": [{
-          "name": "howard-elliot_action_1",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
+          "desktopSrc": "/images/emails/giftcraft/email_3_desktop.png",
+          "mobileSrc": "/images/emails/giftcraft/email_3_mobile.png"
         },
         {
-          "name": "howard-elliot_action_2",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        },
-        {
-          "name": "howard-elliot_action_3",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        }
-      ]
-    },
-    {
-      "name": "ibm",
-      "headline": "IBM",
-      "website": "https://www.ibm.com/",
-      "description": "Multinational Information Technology",
-      "desktopSrc": "/images/emails/ibm/ibm.png",
-      "mobileSrc": "https://via.placeholder.com/375x1000",
-      "actionShots": [{
-          "name": "ibm_action_1",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        },
-        {
-          "name": "ibm_action_2",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        },
-        {
-          "name": "ibm_action_3",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
+          "name": "giftcraft_action_4",
+          "desktopSrc": "/images/emails/giftcraft/email_4_desktop.png",
+          "mobileSrc": "/images/emails/giftcraft/email_4_mobile.png"
         }
       ]
     },
@@ -419,7 +271,7 @@
       "website": "https://www.imaxcorp.com/",
       "description": "Home Decor & Accessories",
       "desktopSrc": "/images/emails/imax/imax.png",
-      "mobileSrc": "https://via.placeholder.com/375x1000",
+      "mobileSrc": null,
       "actionShots": [{
           "name": "imax_action_1",
           "desktopSrc": "/images/emails/imax/email_1_desktop.png",
@@ -448,36 +300,12 @@
       ]
     },
     {
-      "name": "impact-xm",
-      "headline": "Impact XM",
-      "website": "https://impact-xm.com/",
-      "description": "Experiential Marketing",
-      "desktopSrc": "/images/emails/impact-xm/impact-xm.png",
-      "mobileSrc": "https://via.placeholder.com/375x1000",
-      "actionShots": [{
-          "name": "impact-xm_action_1",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        },
-        {
-          "name": "impact-xm_action_2",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        },
-        {
-          "name": "impact-xm_action_3",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        }
-      ]
-    },
-    {
       "name": "legacy-foundation",
       "headline": "Legacy Foundation",
       "website": "https://www.rosebowlstadium.com/",
       "description": "America's Stadium",
       "desktopSrc": "/images/emails/legacy-foundation/legacy-foundation.png",
-      "mobileSrc": "https://via.placeholder.com/375x1000",
+      "mobileSrc": null,
       "actionShots": [{
           "name": "legacy-foundation_action_1",
           "desktopSrc": "/images/emails/legacy-foundation/email_1_desktop.jpg",
@@ -501,170 +329,26 @@
       ]
     },
     {
-      "name": "lucid-candle",
-      "headline": "Lucid Candle",
-      "website": "https://www.lucidcandle.com/",
-      "description": "Candles & Home Accessories",
-      "desktopSrc": "/images/emails/lucid-candle/lucid-candle.png",
-      "mobileSrc": "https://via.placeholder.com/375x1000",
-      "actionShots": [{
-          "name": "lucid-candle_action_1",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        },
-        {
-          "name": "lucid-candle_action_2",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        },
-        {
-          "name": "lucid-candle_action_3",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        }
-      ]
-    },
-    {
-      "name": "myrtle-beach-golf",
-      "headline": "Myrtle Beach Golf",
-      "website": "https://www.myrtlebeachgolf.com/",
-      "description": "Golf Packages",
-      "desktopSrc": "/images/emails/myrtle-beach-golf/myrtle-beach-golf.png",
-      "mobileSrc": "https://via.placeholder.com/375x1000",
-      "actionShots": [{
-          "name": "myrtle-beach-golf_action_1",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        },
-        {
-          "name": "myrtle-beach-golf_action_2",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        },
-        {
-          "name": "myrtle-beach-golf_action_3",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        }
-      ]
-    },
-    {
       "name": "nashville-wraps",
       "headline": "Nashville Wraps",
       "website": "https://www.nashvillewraps.com/",
       "description": "Wholesale Packaging Supplies",
       "desktopSrc": "/images/emails/nashville-wraps/nashville-wraps.png",
-      "mobileSrc": "https://via.placeholder.com/375x1000",
+      "mobileSrc": null,
       "actionShots": [{
           "name": "nashville-wraps_action_1",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
+          "desktopSrc": "/images/emails/nashville-wraps/email_1_desktop.png",
+          "mobileSrc": "/images/emails/nashville-wraps/email_1_mobile.png"
         },
         {
           "name": "nashville-wraps_action_2",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
+          "desktopSrc": "/images/emails/nashville-wraps/email_2_desktop.png",
+          "mobileSrc": "/images/emails/nashville-wraps/email_2_mobile.png"
         },
         {
           "name": "nashville-wraps_action_3",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        }
-      ]
-    },
-    {
-      "name": "national-marrow-donor-program",
-      "headline": "National Marrow Donor Program",
-      "website": "https://bethematch.org/",
-      "description": "Global Leader In Bone Marrow Transplantation",
-      "desktopSrc": "/images/emails/nmdp/nmdp.png",
-      "mobileSrc": "https://via.placeholder.com/375x1000",
-      "actionShots": [{
-          "name": "national-marrow-donor-program_action_1",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        },
-        {
-          "name": "national-marrow-donor-program_action_2",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        },
-        {
-          "name": "national-marrow-donor-program_action_3",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        }
-      ]
-    },
-    {
-      "name": "pitney-bowes",
-      "headline": "Pitney Bowes",
-      "website": "https://www.pitneybowes.com/us",
-      "description": "Global Technology Company",
-      "desktopSrc": "/images/emails/pitney-bowes/pitney-bowes.png",
-      "mobileSrc": "https://via.placeholder.com/375x1000",
-      "actionShots": [{
-          "name": "pitney-bowes_action_1",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        },
-        {
-          "name": "pitney-bowes_action_2",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        },
-        {
-          "name": "pitney-bowes_action_3",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        }
-      ]
-    },
-    {
-      "name": "tripar-international",
-      "headline": "Tripar International",
-      "website": "https://tripar.com/",
-      "description": "Visual Displays And Giftware",
-      "desktopSrc": "/images/emails/tripar-international/tripar-international.png",
-      "mobileSrc": "https://via.placeholder.com/375x1000",
-      "actionShots": [{
-          "name": "tripar-international_action_1",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        },
-        {
-          "name": "tripar-international_action_2",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        },
-        {
-          "name": "tripar-international_action_3",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        }
-      ]
-    },
-    {
-      "name": "twelfth-state-brands",
-      "headline": "Twelfth State Brands",
-      "website": "https://www.twelfthstatebrands.com/",
-      "description": "Wholesale CBD, Vape Juice & E-Liquids",
-      "desktopSrc": "/images/emails/twelfth-state-brands/twelfth-state-brands.png",
-      "mobileSrc": "https://via.placeholder.com/375x1000",
-      "actionShots": [{
-          "name": "twelfth-state-brands_action_1",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        },
-        {
-          "name": "twelfth-state-brands_action_2",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
-        },
-        {
-          "name": "twelfth-state-brands_action_3",
-          "desktopSrc": "https://via.placeholder.com/600x1000?text=Action+Desktop",
-          "mobileSrc": "https://via.placeholder.com/375x1000?text=Action+Mobile"
+          "desktopSrc": "/images/emails/nashville-wraps/email_3_desktop.png",
+          "mobileSrc": "/images/emails/nashville-wraps/email_3_mobile.png"
         }
       ]
     },
@@ -674,7 +358,7 @@
       "website": "https://www.yamahabicycles.com/",
       "description": "Electric Bicycles",
       "desktopSrc": "/images/emails/yamaha-bicycles/yamaha-bicycles.jpg",
-      "mobileSrc": "https://via.placeholder.com/375x1000",
+      "mobileSrc": null,
       "actionShots": [{
           "name": "yamaha-bicycles_action_1",
           "desktopSrc": "/images/emails/yamaha-bicycles/email_1_desktop.png",
