@@ -7,6 +7,12 @@
   min-width: 720px;
   min-height: 95vh;
 
+  @include for-tablet-down {
+    min-width: unset;
+    margin: 5vh var(--l-01) 0 var(--l-01);
+    width: 100%;
+  }
+
   .c-LightBox-toggle {
     border: none;
     outline: none;
@@ -26,6 +32,12 @@
       align-items: center;
       position: relative;
       justify-content: space-between;
+
+      @include for-tablet-down {
+        width: 75px;
+        height: 36px;
+        border-radius: 75px;
+      }
     }
 
     .toggle-circle {
@@ -46,6 +58,25 @@
       display: flex;
       justify-content: center;
       align-items: center;
+    }
+
+    @include for-tablet-down {
+
+      .toggle-circle,
+      .icon-container {
+        width: 33px;
+        height: 33px;
+
+        svg[data-icon-type="desktop"] {
+          width: 17.25px;
+          height: auto;
+        }
+
+        svg[data-icon-type="mobile"] {
+          width: 9px;
+          height: auto;
+        }
+      }
     }
   }
 
@@ -69,6 +100,19 @@
       svg {
         width: 22px;
         height: auto;
+      }
+
+
+      @include for-tablet-down {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        svg {
+          width: 17px;
+        }
       }
     }
   }
