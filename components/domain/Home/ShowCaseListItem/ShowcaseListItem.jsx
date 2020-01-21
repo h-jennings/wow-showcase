@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
-import Link from 'next/link';
-import { motion } from 'framer-motion';
+import React from 'react';
 import PropTypes from 'prop-types';
+import Link from 'next/link';
 import ListItemHoverContent from '../ListItemHoverContent/ListItemHoverContent';
 
 
@@ -13,18 +12,13 @@ function ShowcaseListItem({ data }) {
     website,
   } = data;
 
-  const [isHovered, setIsHovered] = useState(false);
-
   return (
-    <motion.div
-      onHoverStart={() => setIsHovered(true)}
-      onHoverEnd={() => setIsHovered(false)}
+    <div
       className="c-ShowcaseListItem"
     >
       <ListItemHoverContent
         headline={headline}
         website={website}
-        hoverState={isHovered}
       />
       <Link
         scroll={false}
@@ -35,9 +29,18 @@ function ShowcaseListItem({ data }) {
           <img src={desktopSrc} alt="" />
         </a>
       </Link>
-    </motion.div>
+    </div>
   );
 }
+
+ShowcaseListItem.propTypes = {
+  data: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    desktopSrc: PropTypes.string.isRequired,
+    headline: PropTypes.string.isRequired,
+    website: PropTypes.string.isRequired,
+  }).isRequired,
+};
 
 
 export default ShowcaseListItem;

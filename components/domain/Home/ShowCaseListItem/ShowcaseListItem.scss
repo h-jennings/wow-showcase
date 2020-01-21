@@ -8,6 +8,7 @@
   overflow: hidden;
   position: relative;
   cursor: pointer;
+  margin-bottom: var(--l-03);
 
   &::after {
     content: '';
@@ -24,5 +25,11 @@
 
   &:hover::after {
     opacity: 0.4;
+  }
+
+  &:hover {
+    .ListItemHoverContent--container {
+      transform: translateY(0%);
+    }
   }
 }

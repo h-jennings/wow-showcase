@@ -33,4 +33,8 @@ function ShowcaseList({ emails }) {
   );
 }
 
+ShowcaseList.propTypes = {
+  emails: PropTypes.arrayOf(PropTypes.object).isRequired,
+};
+
 export default ShowcaseList;

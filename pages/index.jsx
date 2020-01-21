@@ -5,7 +5,7 @@ import Layout from '../components/shared/Layout';
 import PrimaryHeader from '../components/shared/PrimaryHeader';
 import ShowcaseList from '../components/domain/Home/ShowcaseList';
 import projects from '../data/projects';
-import pageTransitionVariants from '../utils/pageTransistion';
+import pageTransitionVariants from '../utils/pageTransition';
 
 function Home() {
   const { emails } = projects;
