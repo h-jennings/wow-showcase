@@ -64,8 +64,6 @@ const modalVariants = {
 
 function LightBox() {
   const machine = useContext(LightBoxContext);
-  const windowSize = useWindowSize();
-  const { width } = windowSize;
   const { current, send } = machine;
   const { lightBoxImgs: { desktop, mobile } } = current.context;
 

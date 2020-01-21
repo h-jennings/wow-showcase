@@ -56,8 +56,8 @@ function Name({ email }) {
   const {
     headline,
     description,
-    desktopSrc,
-    mobileSrc,
+    desktop,
+    mobile,
     actionShots,
   } = email;
 
@@ -106,11 +106,11 @@ function Name({ email }) {
           <div className="col-left">
             <motion.button
               className="template-image--container"
-              onClick={() => handleClick({ desktopSrc, mobileSrc })}
+              onClick={() => handleClick({ mobile, desktop })}
               type="button"
               variants={detailPageAssetVariants}
             >
-              <img src={desktopSrc} alt="" />
+              <img src={desktop.src} alt="" />
             </motion.button>
           </div>
           <div className="col-right">

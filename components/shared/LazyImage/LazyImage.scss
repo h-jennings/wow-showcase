@@ -1,0 +1,50 @@
+.lazy-image-container {
+  background: linear-gradient(135deg, #eaeaea, rgb(244, 248, 252));
+  background-size: 400% 400%;
+
+  -webkit-animation: gradientAnimation 2s ease infinite;
+  -moz-animation: gradientAnimation 2s ease infinite;
+  animation: gradientAnimation 2s ease infinite;
+}
+
+@-webkit-keyframes gradientAnimation {
+  0% {
+    background-position: 0% 9%
+  }
+
+  50% {
+    background-position: 100% 92%
+  }
+
+  100% {
+    background-position: 0% 9%
+  }
+}
+
+@-moz-keyframes gradientAnimation {
+  0% {
+    background-position: 0% 9%
+  }
+
+  50% {
+    background-position: 100% 92%
+  }
+
+  100% {
+    background-position: 0% 9%
+  }
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 9%
+  }
+
+  50% {
+    background-position: 100% 92%
+  }
+
+  100% {
+    background-position: 0% 9%
+  }
+}

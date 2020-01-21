@@ -1,19 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const propTypes = {
-  // src: PropTypes.string.isRequired,
-  handleClick: PropTypes.func.isRequired,
-};
-
 const DetailThumbnail = React.forwardRef(({ assets, handleClick }, thumbnailRef) => {
-  const { desktopSrc } = assets;
+  const {
+    desktop: {
+      src,
+    },
+  } = assets;
   return (
     <button
       ref={thumbnailRef}
       type="button"
       className="c-DetailThumbnail--container"
-      style={{ backgroundImage: `url('${desktopSrc}')` }}
+      style={{ backgroundImage: `url('${src}')` }}
       onClick={() => handleClick(assets)}
       aria-label="Action-shot-thumbnail"
     />
@@ -21,6 +20,9 @@ const DetailThumbnail = React.forwardRef(({ assets, handleClick }, thumbnailRef)
 });
 
 
-DetailThumbnail.propTypes = propTypes;
+DetailThumbnail.propTypes = {
+  handleClick: PropTypes.func.isRequired,
+  assets: PropTypes.objectOf(PropTypes.any).isRequired,
+};
 
 export default DetailThumbnail;
