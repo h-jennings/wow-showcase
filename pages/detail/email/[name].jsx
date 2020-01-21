@@ -10,7 +10,7 @@ import LightBox from '../../../components/domain/Detail/LightBox';
 import LightBoxStateMachine from '../../../components/domain/Detail/LightBox/LightBoxStateMachine';
 import { lockScroll, unlockScroll } from '../../../utils/scroll';
 import { setImageSrc, resetImageSrc } from '../../../utils/lightBoxImages';
-import pageTransitionVariants from '../../../utils/pageTransistion';
+import pageTransitionVariants from '../../../utils/pageTransition';
 
 const transitionValues = {
   transition: {

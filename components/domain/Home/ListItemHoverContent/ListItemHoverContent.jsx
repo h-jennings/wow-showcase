@@ -1,35 +1,18 @@
 import React from 'react';
-import { motion } from 'framer-motion';
 import PropTypes from 'prop-types';
 
-
-const variants = {
-  inactive: {
-    y: '-100%',
-  },
-  active: {
-    y: '0',
-  },
-};
-
-
-function ListItemHoverContent({ headline, website, hoverState }) {
+function ListItemHoverContent({ headline, website }) {
   return (
-    <motion.div
-      className="ListItemHoverContent--container"
-      variants={variants}
-      initial="inactive"
-      animate={hoverState ? 'active' : 'inactive'}
-      transition={{
-        type: 'spring',
-        stiffness: 500,
-        damping: 40,
-      }}
-    >
+    <div className="ListItemHoverContent--container">
       <h3>{headline}</h3>
       <a href={website} target="_blank" rel="noopener noreferrer">{website}</a>
-    </motion.div>
+    </div>
   );
 }
+
+ListItemHoverContent.propTypes = {
+  headline: PropTypes.string.isRequired,
+  website: PropTypes.string.isRequired,
+};
 
 export default ListItemHoverContent;
