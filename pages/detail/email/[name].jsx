@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import PropTypes from 'prop-types';
 import { useMachine } from '@xstate/react';
 import { motion } from 'framer-motion';
 import LightBoxContext from '../../../context/LightBoxContext';
@@ -149,5 +150,9 @@ Name.getInitialProps = ({ query }) => {
 };
 
 Name.layout = Layout;
+
+Name.propTypes = {
+  email: PropTypes.objectOf(PropTypes.any).isRequired,
+};
 
 export default Name;

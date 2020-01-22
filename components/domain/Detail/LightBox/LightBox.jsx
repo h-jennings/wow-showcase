@@ -1,26 +1,7 @@
 import React, { useContext } from 'react';
 import { motion } from 'framer-motion';
 import Toggle from './Toggle';
-import useWindowSize from '../../../../utils/useWindowSize';
 import LightBoxContext from '../../../../context/LightBoxContext';
-
-const toggleVariantsDesktop = {
-  desktop: {
-    x: -2,
-  },
-  mobile: {
-    x: -54,
-  },
-};
-
-const toggleVariantsMobile = {
-  desktop: {
-    x: -1.5,
-  },
-  mobile: {
-    x: -40.5,
-  },
-};
 
 const staggerModalTransition = {
   transition: {
