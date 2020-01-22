@@ -60,6 +60,7 @@
         bottom: calc(var(--c-04) * -1);
         position: absolute;
         opacity: 0;
+        will-change: transform;
         transform: translateY(100%);
         transition: all 0.1s ease-in-out;
       }
