@@ -2,12 +2,17 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Link from 'next/link';
 import ListItemHoverContent from '../ListItemHoverContent/ListItemHoverContent';
+import LazyImage from '../../../shared/LazyImage';
 
 
 function ShowcaseListItem({ data }) {
   const {
     name,
-    desktopSrc,
+    desktop: {
+      src,
+      height,
+      width,
+    },
     headline,
     website,
   } = data;
@@ -26,7 +31,7 @@ function ShowcaseListItem({ data }) {
         as={`/detail/email/${name}`}
       >
         <a>
-          <img src={desktopSrc} alt="" />
+          <LazyImage src={src} width={width} height={height} />
         </a>
       </Link>
     </div>
@@ -36,7 +41,11 @@ function ShowcaseListItem({ data }) {
 ShowcaseListItem.propTypes = {
   data: PropTypes.shape({
     name: PropTypes.string.isRequired,
-    desktopSrc: PropTypes.string.isRequired,
+    desktop: PropTypes.shape({
+      src: PropTypes.string.isRequired,
+      width: PropTypes.number.isRequired,
+      height: PropTypes.number.isRequired,
+    }),
     headline: PropTypes.string.isRequired,
     website: PropTypes.string.isRequired,
   }).isRequired,

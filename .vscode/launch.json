@@ -10,7 +10,8 @@
     "smartStep": true,
     "skipFiles": [
       "node-modules/**",
-      "interpreter.js"
+      "interpreter.js",
+      "*.min.js"
     ]
   }]
 }
