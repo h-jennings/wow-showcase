@@ -31,6 +31,7 @@
     height: 44px;
     border-radius: 50%;
     transform: translateX(-2px);
+    will-change: transform;
     z-index: 2;
     position: absolute;
     right: 0;
@@ -40,13 +41,16 @@
     &.desktop {
       transform: translateX(-2px);
     }
+
     &.mobile {
       transform: translateX(-54px);
     }
+
     @include for-phone-only {
       &.desktop {
         transform: translateX(-1.5px);
       }
+
       &.mobile {
         transform: translateX(-40.5px);
       }

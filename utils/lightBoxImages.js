@@ -1,11 +1,12 @@
 import { assign } from 'xstate';
 
 const setImageSrc = assign({
-  lightBoxImgs: (context, event) => {
-    const { data: { desktopSrc, mobileSrc } } = event;
+  lightBoxImgs: (_context, event) => {
+    const { data } = event;
+    const { desktop, mobile } = data;
     return ({
-      desktop: desktopSrc,
-      mobile: mobileSrc,
+      desktop: desktop.src,
+      mobile: mobile.src,
     });
   },
 });
