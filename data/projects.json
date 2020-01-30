@@ -4,27 +4,27 @@
       "headline": "Beckers",
       "website": "https://www.shopbecker.com",
       "description": "School Supplies",
-      "desktopSrc": "/images/emails/beckers/beckers.png",
+      "desktopSrc": "/images/emails/beckers/compressed/compressed-beckers.png",
       "mobileSrc": null,
       "actionShots": [{
           "name": "beckers_action_1",
-          "desktopSrc": "/images/emails/beckers/email_1_desktop.png",
-          "mobileSrc": "/images/emails/beckers/email_1_mobile.png"
+          "desktopSrc": "/images/emails/beckers/compressed/compressed-email_1_desktop.png",
+          "mobileSrc": "/images/emails/beckers/compressed/compressed-email_1_mobile.png"
         },
         {
           "name": "beckers_action_2",
-          "desktopSrc": "/images/emails/beckers/email_2_desktop.png",
-          "mobileSrc": "/images/emails/beckers/email_2_mobile.png"
+          "desktopSrc": "/images/emails/beckers/compressed/compressed-email_2_desktop.png",
+          "mobileSrc": "/images/emails/beckers/compressed/compressed-email_2_mobile.png"
         },
         {
           "name": "beckers_action_3",
-          "desktopSrc": "/images/emails/beckers/email_3_desktop.png",
-          "mobileSrc": "/images/emails/beckers/email_3_mobile.png"
+          "desktopSrc": "/images/emails/beckers/compressed/compressed-email_3_desktop.png",
+          "mobileSrc": "/images/emails/beckers/compressed/compressed-email_3_mobile.png"
         },
         {
           "name": "beckers_action_4",
-          "desktopSrc": "/images/emails/beckers/email_4_desktop.png",
-          "mobileSrc": "/images/emails/beckers/email_4_mobile.png"
+          "desktopSrc": "/images/emails/beckers/compressed/compressed-email_4_desktop.png",
+          "mobileSrc": "/images/emails/beckers/compressed/compressed-email_4_mobile.png"
         }
       ]
     },
@@ -33,27 +33,27 @@
       "headline": "Bloomingville",
       "website": "https://www.bloomingville.us",
       "description": "Nordic home & interior design",
-      "desktopSrc": "/images/emails/bloomingville/bloomingville.png",
+      "desktopSrc": "/images/emails/bloomingville/compressed/compressed-bloomingville.png",
       "mobileSrc": null,
       "actionShots": [{
           "name": "bloomingville_action_1",
-          "desktopSrc": "/images/emails/bloomingville/email_1_desktop.png",
-          "mobileSrc": "/images/emails/bloomingville/email_1_mobile.png"
+          "desktopSrc": "/images/emails/bloomingville/compressed/compressed-email_1_desktop.png",
+          "mobileSrc": "/images/emails/bloomingville/compressed/compressed-email_1_mobile.png"
         },
         {
           "name": "bloomingville_action_2",
-          "desktopSrc": "/images/emails/bloomingville/email_2_desktop.png",
-          "mobileSrc": "/images/emails/bloomingville/email_2_mobile.png"
+          "desktopSrc": "/images/emails/bloomingville/compressed/compressed-email_2_desktop.png",
+          "mobileSrc": "/images/emails/bloomingville/compressed/compressed-email_2_mobile.png"
         },
         {
           "name": "bloomingville_action_3",
-          "desktopSrc": "/images/emails/bloomingville/email_3_desktop.png",
-          "mobileSrc": "/images/emails/bloomingville/email_3_mobile.png"
+          "desktopSrc": "/images/emails/bloomingville/compressed/compressed-email_3_desktop.png",
+          "mobileSrc": "/images/emails/bloomingville/compressed/compressed-email_3_mobile.png"
         },
         {
           "name": "bloomingville_action_4",
-          "desktopSrc": "/images/emails/bloomingville/email_4_desktop.png",
-          "mobileSrc": "/images/emails/bloomingville/email_4_mobile.png"
+          "desktopSrc": "/images/emails/bloomingville/compressed/compressed-email_4_desktop.png",
+          "mobileSrc": "/images/emails/bloomingville/compressed/compressed-email_4_mobile.png"
         }
       ]
     },
@@ -62,22 +62,22 @@
       "headline": "Brownlow",
       "website": "https://www.brownlowgift.com",
       "description": "Giftable Decor",
-      "desktopSrc": "/images/emails/brownlow/brownlow.png",
+      "desktopSrc": "/images/emails/brownlow/compressed/compressed-brownlow.png",
       "mobileSrc": null,
       "actionShots": [{
           "name": "brownlow_action_1",
-          "desktopSrc": "/images/emails/brownlow/email_1_desktop.png",
-          "mobileSrc": "/images/emails/brownlow/email_1_mobile.png"
+          "desktopSrc": "/images/emails/brownlow/compressed/compressed-email_1_desktop.png",
+          "mobileSrc": "/images/emails/brownlow/compressed/compressed-email_1_mobile.png"
         },
         {
           "name": "brownlow_action_2",
-          "desktopSrc": "/images/emails/brownlow/email_2_desktop.png",
-          "mobileSrc": "/images/emails/brownlow/email_2_mobile.png"
+          "desktopSrc": "/images/emails/brownlow/compressed/compressed-email_2_desktop.png",
+          "mobileSrc": "/images/emails/brownlow/compressed/compressed-email_2_mobile.png"
         },
         {
           "name": "brownlow_action_3",
-          "desktopSrc": "/images/emails/brownlow/email_3_desktop.png",
-          "mobileSrc": "/images/emails/brownlow/email_3_mobile.png"
+          "desktopSrc": "/images/emails/brownlow/compressed/compressed-email_3_desktop.png",
+          "mobileSrc": "/images/emails/brownlow/compressed/compressed-email_3_mobile.png"
         }
       ]
     },
@@ -86,22 +86,22 @@
       "headline": "Clean Choice Energy",
       "website": "https://cleanchoiceenergy.com",
       "description": "Clean Energy Supplier",
-      "desktopSrc": "/images/emails/cleanChoice/cleanChoice.jpg",
+      "desktopSrc": "/images/emails/cleanChoice/compressed/compressed-cleanChoice.jpg",
       "mobileSrc": null,
       "actionShots": [{
           "name": "clean-choice-energy_action_1",
-          "desktopSrc": "/images/emails/cleanChoice/email_1_desktop.png",
-          "mobileSrc": "/images/emails/cleanChoice/email_1_mobile.png"
+          "desktopSrc": "/images/emails/cleanChoice/compressed/compressed-email_1_desktop.png",
+          "mobileSrc": "/images/emails/cleanChoice/compressed/compressed-email_1_mobile.png"
         },
         {
           "name": "clean-choice-energy_action_2",
-          "desktopSrc": "/images/emails/cleanChoice/email_2_desktop.png",
-          "mobileSrc": "/images/emails/cleanChoice/email_2_mobile.png"
+          "desktopSrc": "/images/emails/cleanChoice/compressed/compressed-email_2_desktop.png",
+          "mobileSrc": "/images/emails/cleanChoice/compressed/compressed-email_2_mobile.png"
         },
         {
           "name": "clean-choice-energy_action_3",
-          "desktopSrc": "/images/emails/cleanChoice/email_3_desktop.png",
-          "mobileSrc": "/images/emails/cleanChoice/email_3_mobile.png"
+          "desktopSrc": "/images/emails/cleanChoice/compressed/compressed-email_3_desktop.png",
+          "mobileSrc": "/images/emails/cleanChoice/compressed/compressed-email_3_mobile.png"
         }
       ]
     },
@@ -110,32 +110,32 @@
       "headline": "Creative Co-op",
       "website": "https://www.creativecoop.com",
       "description": "Home, Seasonal Décor & Fashion Accessories",
-      "desktopSrc": "/images/emails/creative-co-op/creative-co-op.png",
+      "desktopSrc": "/images/emails/creative-co-op/compressed/compressed-creative-co-op.png",
       "mobileSrc": null,
       "actionShots": [{
           "name": "creative-co-op_action_1",
-          "desktopSrc": "/images/emails/creative-co-op/email_1_desktop.png",
-          "mobileSrc": "/images/emails/creative-co-op/email_1_mobile.png"
+          "desktopSrc": "/images/emails/creative-co-op/compressed/compressed-email_1_desktop.png",
+          "mobileSrc": "/images/emails/creative-co-op/compressed/compressed-email_1_mobile.png"
         },
         {
           "name": "creative-co-op_action_2",
-          "desktopSrc": "/images/emails/creative-co-op/email_2_desktop.png",
-          "mobileSrc": "/images/emails/creative-co-op/email_2_mobile.png"
+          "desktopSrc": "/images/emails/creative-co-op/compressed/compressed-email_2_desktop.png",
+          "mobileSrc": "/images/emails/creative-co-op/compressed/compressed-email_2_mobile.png"
         },
         {
           "name": "creative-co-op_action_3",
-          "desktopSrc": "/images/emails/creative-co-op/email_3_desktop.png",
-          "mobileSrc": "/images/emails/creative-co-op/email_3_mobile.png"
+          "desktopSrc": "/images/emails/creative-co-op/compressed/compressed-email_3_desktop.png",
+          "mobileSrc": "/images/emails/creative-co-op/compressed/compressed-email_3_mobile.png"
         },
         {
           "name": "creative-co-op_action_4",
-          "desktopSrc": "/images/emails/creative-co-op/email_4_desktop.png",
-          "mobileSrc": "/images/emails/creative-co-op/email_4_mobile.png"
+          "desktopSrc": "/images/emails/creative-co-op/compressed/compressed-email_4_desktop.png",
+          "mobileSrc": "/images/emails/creative-co-op/compressed/compressed-email_4_mobile.png"
         },
         {
           "name": "creative-co-op_action_5",
-          "desktopSrc": "/images/emails/creative-co-op/email_5_desktop.png",
-          "mobileSrc": "/images/emails/creative-co-op/email_5_mobile.png"
+          "desktopSrc": "/images/emails/creative-co-op/compressed/compressed-email_5_desktop.png",
+          "mobileSrc": "/images/emails/creative-co-op/compressed/compressed-email_5_mobile.png"
         }
       ]
     },
@@ -144,22 +144,22 @@
       "headline": "Cuisinart",
       "website": "https://www.cuisinart.com/",
       "description": "American home appliance brand",
-      "desktopSrc": "/images/emails/cuisinart/master.png",
-      "mobileSrc": "/images/emails/cuisinart/master_mobile.png",
+      "desktopSrc": "/images/emails/cuisinart/compressed/compressed-master.png",
+      "mobileSrc": "/images/emails/cuisinart/compressed/compressed-master_mobile.png",
       "actionShots": [{
           "name": "cuisinart_action_1",
-          "desktopSrc": "/images/emails/cuisinart/email_1_desktop.jpg",
-          "mobileSrc": "/images/emails/cuisinart/email_1_mobile.jpg"
+          "desktopSrc": "/images/emails/cuisinart/compressed/compressed-email_1_desktop.jpg",
+          "mobileSrc": "/images/emails/cuisinart/compressed/compressed-email_1_mobile.jpg"
         },
         {
           "name": "cuisinart_action_2",
-          "desktopSrc": "/images/emails/cuisinart/email_2_desktop.png",
-          "mobileSrc": "/images/emails/cuisinart/email_2_mobile.png"
+          "desktopSrc": "/images/emails/cuisinart/compressed/compressed-email_2_desktop.png",
+          "mobileSrc": "/images/emails/cuisinart/compressed/compressed-email_2_mobile.png"
         },
         {
           "name": "cuisinart_action_3",
-          "desktopSrc": "/images/emails/cuisinart/email_3_desktop.jpg",
-          "mobileSrc": "/images/emails/cuisinart/email_3_mobile.png"
+          "desktopSrc": "/images/emails/cuisinart/compressed/compressed-email_3_desktop.jpg",
+          "mobileSrc": "/images/emails/cuisinart/compressed/compressed-email_3_mobile.png"
         }
       ]
     },
@@ -168,37 +168,37 @@
       "headline": "DEI",
       "website": "https://www.deidirect.com",
       "description": "Gifts & More",
-      "desktopSrc": "/images/emails/dei/dei.png",
+      "desktopSrc": "/images/emails/dei/compressed/compressed-dei.png",
       "mobileSrc": null,
       "actionShots": [{
           "name": "dei_action_1",
-          "desktopSrc": "/images/emails/dei/email_1_desktop.png",
-          "mobileSrc": "/images/emails/dei/email_1_mobile.png"
+          "desktopSrc": "/images/emails/dei/compressed/compressed-email_1_desktop.png",
+          "mobileSrc": "/images/emails/dei/compressed/compressed-email_1_mobile.png"
         },
         {
           "name": "dei_action_2",
-          "desktopSrc": "/images/emails/dei/email_2_desktop.png",
-          "mobileSrc": "/images/emails/dei/email_2_mobile.png"
+          "desktopSrc": "/images/emails/dei/compressed/compressed-email_2_desktop.png",
+          "mobileSrc": "/images/emails/dei/compressed/compressed-email_2_mobile.png"
         },
         {
           "name": "dei_action_3",
-          "desktopSrc": "/images/emails/dei/email_3_desktop.png",
-          "mobileSrc": "/images/emails/dei/email_3_mobile.png"
+          "desktopSrc": "/images/emails/dei/compressed/compressed-email_3_desktop.png",
+          "mobileSrc": "/images/emails/dei/compressed/compressed-email_3_mobile.png"
         },
         {
           "name": "dei_action_4",
-          "desktopSrc": "/images/emails/dei/email_4_desktop.png",
-          "mobileSrc": "/images/emails/dei/email_4_mobile.png"
+          "desktopSrc": "/images/emails/dei/compressed/compressed-email_4_desktop.png",
+          "mobileSrc": "/images/emails/dei/compressed/compressed-email_4_mobile.png"
         },
         {
           "name": "dei_action_5",
-          "desktopSrc": "/images/emails/dei/email_5_desktop.png",
-          "mobileSrc": "/images/emails/dei/email_5_mobile.png"
+          "desktopSrc": "/images/emails/dei/compressed/compressed-email_5_desktop.png",
+          "mobileSrc": "/images/emails/dei/compressed/compressed-email_5_mobile.png"
         },
         {
           "name": "dei_action_6",
-          "desktopSrc": "/images/emails/dei/email_6_desktop.png",
-          "mobileSrc": "/images/emails/dei/email_6_mobile.png"
+          "desktopSrc": "/images/emails/dei/compressed/compressed-email_6_desktop.png",
+          "mobileSrc": "/images/emails/dei/compressed/compressed-email_6_mobile.png"
         }
       ]
     },
@@ -207,32 +207,32 @@
       "headline": "Ganz",
       "website": "http://www.ganz.com/",
       "description": "Gifts & More",
-      "desktopSrc": "/images/emails/ganz/ganz.jpg",
+      "desktopSrc": "/images/emails/ganz/compressed/compressed-ganz.jpg",
       "mobileSrc": null,
       "actionShots": [{
           "name": "ganz_action_1",
-          "desktopSrc": "/images/emails/ganz/email_1_desktop.png",
-          "mobileSrc": "/images/emails/ganz/email_1_mobile.png"
+          "desktopSrc": "/images/emails/ganz/compressed/compressed-email_1_desktop.png",
+          "mobileSrc": "/images/emails/ganz/compressed/compressed-email_1_mobile.png"
         },
         {
           "name": "ganz_action_2",
-          "desktopSrc": "/images/emails/ganz/email_2_desktop.png",
-          "mobileSrc": "/images/emails/ganz/email_2_mobile.png"
+          "desktopSrc": "/images/emails/ganz/compressed/compressed-email_2_desktop.png",
+          "mobileSrc": "/images/emails/ganz/compressed/compressed-email_2_mobile.png"
         },
         {
           "name": "ganz_action_3",
-          "desktopSrc": "/images/emails/ganz/email_3_desktop.png",
-          "mobileSrc": "/images/emails/ganz/email_3_mobile.png"
+          "desktopSrc": "/images/emails/ganz/compressed/compressed-email_3_desktop.png",
+          "mobileSrc": "/images/emails/ganz/compressed/compressed-email_3_mobile.png"
         },
         {
           "name": "ganz_action_4",
-          "desktopSrc": "/images/emails/ganz/email_4_desktop.png",
-          "mobileSrc": "/images/emails/ganz/email_4_mobile.png"
+          "desktopSrc": "/images/emails/ganz/compressed/compressed-email_4_desktop.png",
+          "mobileSrc": "/images/emails/ganz/compressed/compressed-email_4_mobile.png"
         },
         {
           "name": "ganz_action_5",
-          "desktopSrc": "/images/emails/ganz/email_5_desktop.png",
-          "mobileSrc": "/images/emails/ganz/email_5_mobile.jpg"
+          "desktopSrc": "/images/emails/ganz/compressed/compressed-email_5_desktop.png",
+          "mobileSrc": "/images/emails/ganz/compressed/compressed-email_5_mobile.jpg"
         }
       ]
     },
@@ -241,27 +241,27 @@
       "headline": "GiftCraft",
       "website": "https://www.giftcraft.com/",
       "description": "Home Decor",
-      "desktopSrc": "/images/emails/giftcraft/giftcraft.png",
+      "desktopSrc": "/images/emails/giftcraft/compressed/compressed-giftcraft.png",
       "mobileSrc": null,
       "actionShots": [{
           "name": "giftcraft_action_1",
-          "desktopSrc": "/images/emails/giftcraft/email_1_desktop.png",
-          "mobileSrc": "/images/emails/giftcraft/email_1_mobile.png"
+          "desktopSrc": "/images/emails/giftcraft/compressed/compressed-email_1_desktop.png",
+          "mobileSrc": "/images/emails/giftcraft/compressed/compressed-email_1_mobile.png"
         },
         {
           "name": "giftcraft_action_2",
-          "desktopSrc": "/images/emails/giftcraft/email_2_desktop.png",
-          "mobileSrc": "/images/emails/giftcraft/email_2_mobile.png"
+          "desktopSrc": "/images/emails/giftcraft/compressed/compressed-email_2_desktop.png",
+          "mobileSrc": "/images/emails/giftcraft/compressed/compressed-email_2_mobile.png"
         },
         {
           "name": "giftcraft_action_3",
-          "desktopSrc": "/images/emails/giftcraft/email_3_desktop.png",
-          "mobileSrc": "/images/emails/giftcraft/email_3_mobile.png"
+          "desktopSrc": "/images/emails/giftcraft/compressed/compressed-email_3_desktop.png",
+          "mobileSrc": "/images/emails/giftcraft/compressed/compressed-email_3_mobile.png"
         },
         {
           "name": "giftcraft_action_4",
-          "desktopSrc": "/images/emails/giftcraft/email_4_desktop.png",
-          "mobileSrc": "/images/emails/giftcraft/email_4_mobile.png"
+          "desktopSrc": "/images/emails/giftcraft/compressed/compressed-email_4_desktop.png",
+          "mobileSrc": "/images/emails/giftcraft/compressed/compressed-email_4_mobile.png"
         }
       ]
     },
@@ -270,32 +270,32 @@
       "headline": "Imax",
       "website": "https://www.imaxcorp.com/",
       "description": "Home Decor & Accessories",
-      "desktopSrc": "/images/emails/imax/imax.png",
+      "desktopSrc": "/images/emails/imax/compressed/compressed-imax.png",
       "mobileSrc": null,
       "actionShots": [{
           "name": "imax_action_1",
-          "desktopSrc": "/images/emails/imax/email_1_desktop.png",
-          "mobileSrc": "/images/emails/imax/email_1_mobile.png"
+          "desktopSrc": "/images/emails/imax/compressed/compressed-email_1_desktop.png",
+          "mobileSrc": "/images/emails/imax/compressed/compressed-email_1_mobile.png"
         },
         {
           "name": "imax_action_2",
-          "desktopSrc": "/images/emails/imax/email_2_desktop.png",
-          "mobileSrc": "/images/emails/imax/email_2_mobile.png"
+          "desktopSrc": "/images/emails/imax/compressed/compressed-email_2_desktop.png",
+          "mobileSrc": "/images/emails/imax/compressed/compressed-email_2_mobile.png"
         },
         {
           "name": "imax_action_3",
-          "desktopSrc": "/images/emails/imax/email_3_desktop.png",
-          "mobileSrc": "/images/emails/imax/email_3_mobile.png"
+          "desktopSrc": "/images/emails/imax/compressed/compressed-email_3_desktop.png",
+          "mobileSrc": "/images/emails/imax/compressed/compressed-email_3_mobile.png"
         },
         {
           "name": "imax_action_4",
-          "desktopSrc": "/images/emails/imax/email_4_desktop.png",
-          "mobileSrc": "/images/emails/imax/email_4_mobile.png"
+          "desktopSrc": "/images/emails/imax/compressed/compressed-email_4_desktop.png",
+          "mobileSrc": "/images/emails/imax/compressed/compressed-email_4_mobile.png"
         },
         {
           "name": "imax_action_5",
-          "desktopSrc": "/images/emails/imax/email_5_desktop.png",
-          "mobileSrc": "/images/emails/imax/email_5_mobile.png"
+          "desktopSrc": "/images/emails/imax/compressed/compressed-email_5_desktop.png",
+          "mobileSrc": "/images/emails/imax/compressed/compressed-email_5_mobile.png"
         }
       ]
     },
@@ -304,27 +304,27 @@
       "headline": "Legacy Foundation",
       "website": "https://www.rosebowlstadium.com/",
       "description": "America's Stadium",
-      "desktopSrc": "/images/emails/legacy-foundation/legacy-foundation.png",
+      "desktopSrc": "/images/emails/legacy-foundation/compressed/compressed-legacy-foundation.png",
       "mobileSrc": null,
       "actionShots": [{
           "name": "legacy-foundation_action_1",
-          "desktopSrc": "/images/emails/legacy-foundation/email_1_desktop.jpg",
-          "mobileSrc": "/images/emails/legacy-foundation/email_1_mobile.png"
+          "desktopSrc": "/images/emails/legacy-foundation/compressed/compressed-email_1_desktop.jpg",
+          "mobileSrc": "/images/emails/legacy-foundation/compressed/compressed-email_1_mobile.png"
         },
         {
           "name": "legacy-foundation_action_2",
-          "desktopSrc": "/images/emails/legacy-foundation/email_2_desktop.png",
-          "mobileSrc": "/images/emails/legacy-foundation/email_2_mobile.png"
+          "desktopSrc": "/images/emails/legacy-foundation/compressed/compressed-email_2_desktop.png",
+          "mobileSrc": "/images/emails/legacy-foundation/compressed/compressed-email_2_mobile.png"
         },
         {
           "name": "legacy-foundation_action_3",
-          "desktopSrc": "/images/emails/legacy-foundation/email_3_desktop.jpg",
-          "mobileSrc": "/images/emails/legacy-foundation/email_3_mobile.png"
+          "desktopSrc": "/images/emails/legacy-foundation/compressed/compressed-email_3_desktop.jpg",
+          "mobileSrc": "/images/emails/legacy-foundation/compressed/compressed-email_3_mobile.png"
         },
         {
           "name": "legacy-foundation_action_4",
-          "desktopSrc": "/images/emails/legacy-foundation/email_4_desktop.png",
-          "mobileSrc": "/images/emails/legacy-foundation/email_4_mobile.png"
+          "desktopSrc": "/images/emails/legacy-foundation/compressed/compressed-email_4_desktop.png",
+          "mobileSrc": "/images/emails/legacy-foundation/compressed/compressed-email_4_mobile.png"
         }
       ]
     },
@@ -333,22 +333,22 @@
       "headline": "Nashville Wraps",
       "website": "https://www.nashvillewraps.com/",
       "description": "Wholesale Packaging Supplies",
-      "desktopSrc": "/images/emails/nashville-wraps/nashville-wraps.png",
+      "desktopSrc": "/images/emails/nashville-wraps/compressed/compressed-nashville-wraps.png",
       "mobileSrc": null,
       "actionShots": [{
           "name": "nashville-wraps_action_1",
-          "desktopSrc": "/images/emails/nashville-wraps/email_1_desktop.png",
-          "mobileSrc": "/images/emails/nashville-wraps/email_1_mobile.png"
+          "desktopSrc": "/images/emails/nashville-wraps/compressed/compressed-email_1_desktop.png",
+          "mobileSrc": "/images/emails/nashville-wraps/compressed/compressed-email_1_mobile.png"
         },
         {
           "name": "nashville-wraps_action_2",
-          "desktopSrc": "/images/emails/nashville-wraps/email_2_desktop.png",
-          "mobileSrc": "/images/emails/nashville-wraps/email_2_mobile.png"
+          "desktopSrc": "/images/emails/nashville-wraps/compressed/compressed-email_2_desktop.png",
+          "mobileSrc": "/images/emails/nashville-wraps/compressed/compressed-email_2_mobile.png"
         },
         {
           "name": "nashville-wraps_action_3",
-          "desktopSrc": "/images/emails/nashville-wraps/email_3_desktop.png",
-          "mobileSrc": "/images/emails/nashville-wraps/email_3_mobile.png"
+          "desktopSrc": "/images/emails/nashville-wraps/compressed/compressed-email_3_desktop.png",
+          "mobileSrc": "/images/emails/nashville-wraps/compressed/compressed-email_3_mobile.png"
         }
       ]
     },
@@ -357,27 +357,27 @@
       "headline": "Yamaha Bicycles",
       "website": "https://www.yamahabicycles.com/",
       "description": "Electric Bicycles",
-      "desktopSrc": "/images/emails/yamaha-bicycles/yamaha-bicycles.jpg",
+      "desktopSrc": "/images/emails/yamaha-bicycles/compressed/compressed-yamaha-bicycles.jpg",
       "mobileSrc": null,
       "actionShots": [{
           "name": "yamaha-bicycles_action_1",
-          "desktopSrc": "/images/emails/yamaha-bicycles/email_1_desktop.png",
-          "mobileSrc": "/images/emails/yamaha-bicycles/email_1_mobile.png"
+          "desktopSrc": "/images/emails/yamaha-bicycles/compressed/compressed-email_1_desktop.png",
+          "mobileSrc": "/images/emails/yamaha-bicycles/compressed/compressed-email_1_mobile.png"
         },
         {
           "name": "yamaha-bicycles_action_2",
-          "desktopSrc": "/images/emails/yamaha-bicycles/email_2_desktop.png",
-          "mobileSrc": "/images/emails/yamaha-bicycles/email_2_mobile.png"
+          "desktopSrc": "/images/emails/yamaha-bicycles/compressed/compressed-email_2_desktop.png",
+          "mobileSrc": "/images/emails/yamaha-bicycles/compressed/compressed-email_2_mobile.png"
         },
         {
           "name": "yamaha-bicycles_action_3",
-          "desktopSrc": "/images/emails/yamaha-bicycles/email_3_desktop.png",
-          "mobileSrc": "/images/emails/yamaha-bicycles/email_3_mobile.png"
+          "desktopSrc": "/images/emails/yamaha-bicycles/compressed/compressed-email_3_desktop.png",
+          "mobileSrc": "/images/emails/yamaha-bicycles/compressed/compressed-email_3_mobile.png"
         },
         {
           "name": "yamaha-bicycles_action_4",
-          "desktopSrc": "/images/emails/yamaha-bicycles/email_4_desktop.png",
-          "mobileSrc": "/images/emails/yamaha-bicycles/email_4_mobile.png"
+          "desktopSrc": "/images/emails/yamaha-bicycles/compressed/compressed-email_4_desktop.png",
+          "mobileSrc": "/images/emails/yamaha-bicycles/compressed/compressed-email_4_mobile.png"
         }
       ]
     }
