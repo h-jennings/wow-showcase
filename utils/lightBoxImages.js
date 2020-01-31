@@ -3,10 +3,10 @@ import { assign } from 'xstate';
 const setImageSrc = assign({
   lightBoxImgs: (_context, event) => {
     const { data } = event;
-    const { desktop, mobile } = data;
+    const { desktopSrc, mobileSrc } = data;
     return ({
-      desktop: desktop.src,
-      mobile: mobile.src,
+      desktop: desktopSrc,
+      mobile: mobileSrc,
     });
   },
 });

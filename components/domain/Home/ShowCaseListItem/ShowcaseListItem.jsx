@@ -5,11 +5,10 @@ import ListItemHoverContent from '../ListItemHoverContent/ListItemHoverContent';
 import LazyImage from '../../../shared/LazyImage';
 
 
-function ShowcaseListItem({ data }) {
+function ShowcaseListItem({ data, src }) {
   const {
     name,
     desktop: {
-      src,
       height,
       width,
     },
@@ -42,13 +41,13 @@ ShowcaseListItem.propTypes = {
   data: PropTypes.shape({
     name: PropTypes.string.isRequired,
     desktop: PropTypes.shape({
-      src: PropTypes.string.isRequired,
       width: PropTypes.number.isRequired,
       height: PropTypes.number.isRequired,
     }),
     headline: PropTypes.string.isRequired,
     website: PropTypes.string.isRequired,
   }).isRequired,
+  src: PropTypes.string.isRequired,
 };
 
 

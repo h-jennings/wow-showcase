@@ -1,3 +1,5 @@
+/* eslint-disable import/no-dynamic-require */
+/* eslint-disable global-require */
 import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { useMachine } from '@xstate/react';
@@ -62,6 +64,15 @@ function Name({ email }) {
     actionShots,
   } = email;
 
+  // Importing image into the the page
+  const desktopSrc = desktop.src
+    ? require(`../../../images/emails/${desktop.src}`)
+    : null;
+
+  const mobileSrc = mobile.src
+    ? require(`../../../images/emails/${mobile.src}`)
+    : null;
+
   const [current, send] = useMachine(LightBoxStateMachine, {
     actions: {
       lockScroll,
@@ -107,11 +118,14 @@ function Name({ email }) {
           <div className="col-left">
             <motion.button
               className="template-image--container"
-              onClick={() => handleClick({ mobile, desktop })}
+              onClick={() => handleClick({ mobileSrc, desktopSrc })}
               type="button"
               variants={detailPageAssetVariants}
             >
-              <img src={desktop.src} alt="" />
+              <img
+                src={desktopSrc}
+                alt=""
+              />
             </motion.button>
           </div>
           <div className="col-right">
@@ -121,6 +135,7 @@ function Name({ email }) {
               variants={stagger}
             >
               {actionShots.map((shot) => (
+                // TODO: Need to figure out how to import these assets
                 <MotionDetailThumbnail
                   key={shot.name}
                   handleClick={handleClick}

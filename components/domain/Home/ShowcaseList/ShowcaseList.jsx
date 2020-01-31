@@ -1,3 +1,5 @@
+/* eslint-disable import/no-dynamic-require */
+/* eslint-disable global-require */
 import React from 'react';
 import { motion } from 'framer-motion';
 import PropTypes from 'prop-types';
@@ -25,6 +27,11 @@ function ShowcaseList({ emails }) {
             <ShowcaseListItem
               key={email.name}
               data={email}
+              src={(
+                email.desktop.src
+                  ? require(`../../../../images/emails/${email.desktop.src}`)
+                  : null
+              )}
             />
           ))}
         </motion.div>
