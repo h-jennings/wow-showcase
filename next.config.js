@@ -8,9 +8,9 @@ module.exports = withPlugins([withSass, [optimizedImages, {
   optimizeImages: true,
   optimizeImagesInDev: false,
   mozjpeg: {
-    quality: 80,
+    quality: 85,
   },
   optipng: {
-    optimizationLevel: 3,
+    optimizationLevel: 2,
   },
 }]]);
