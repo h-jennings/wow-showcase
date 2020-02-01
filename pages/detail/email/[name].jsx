@@ -14,7 +14,8 @@ import LightBoxStateMachine from '../../../components/domain/Detail/LightBox/Lig
 import { lockScroll, unlockScroll } from '../../../utils/scroll';
 import { setImageSrc, resetImageSrc } from '../../../utils/lightBoxImages';
 import pageTransitionVariants from '../../../utils/pageTransition';
-import tryRequire from '../../../utils/tryRequire';
+import tryImageRequire from '../../../utils/tryImageRequire';
+import ErrorBoundary from '../../../components/shared/ErrorBoundary/ErrorBoundary';
 
 const transitionValues = {
   transition: {
@@ -66,13 +67,9 @@ function Name({ email }) {
   } = email;
 
   // Importing image into the the page
-  const desktopSrc = desktop.src
-    ? tryRequire(desktop.src)
-    : null;
+  const desktopSrc = (desktop.src && tryImageRequire(desktop.src)) || '/image/broken-image.jpg';
 
-  const mobileSrc = mobile.src
-    ? tryRequire(mobile.src)
-    : null;
+  const mobileSrc = (mobile.src && tryImageRequire(mobile.src)) || '/image/broken-image.jpg';
 
   const [current, send] = useMachine(LightBoxStateMachine, {
     actions: {
@@ -117,17 +114,19 @@ function Name({ email }) {
       >
         <div className="p-detail--container">
           <div className="col-left">
-            <motion.button
-              className="template-image--container"
-              onClick={() => handleClick({ mobileSrc, desktopSrc })}
-              type="button"
-              variants={detailPageAssetVariants}
-            >
-              <img
-                src={desktopSrc}
-                alt=""
-              />
-            </motion.button>
+            <ErrorBoundary>
+              <motion.button
+                className="template-image--container"
+                onClick={() => handleClick({ mobileSrc, desktopSrc })}
+                type="button"
+                variants={detailPageAssetVariants}
+              >
+                <img
+                  src={desktopSrc}
+                  alt=""
+                />
+              </motion.button>
+            </ErrorBoundary>
           </div>
           <div className="col-right">
             <h2>See it in action</h2>
@@ -136,14 +135,16 @@ function Name({ email }) {
               variants={stagger}
             >
               {actionShots.map((shot) => (
-                // TODO: Need to figure out how to import these assets
-                <MotionDetailThumbnail
+                <ErrorBoundary
                   key={shot.name}
-                  handleClick={handleClick}
-                  assets={shot}
-                  variants={detailPageAssetVariants}
-                  ref={thumbnailRef}
-                />
+                >
+                  <MotionDetailThumbnail
+                    handleClick={handleClick}
+                    assets={shot}
+                    variants={detailPageAssetVariants}
+                    ref={thumbnailRef}
+                  />
+                </ErrorBoundary>
               ))}
             </motion.div>
           </div>

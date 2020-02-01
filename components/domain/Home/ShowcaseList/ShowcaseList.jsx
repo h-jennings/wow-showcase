@@ -4,7 +4,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import PropTypes from 'prop-types';
 import ShowcaseListItem from '../ShowCaseListItem';
-import tryRequire from '../../../../utils/tryRequire';
+import tryImageRequire from '../../../../utils/tryImageRequire';
+import ErrorBoundary from '../../../shared/ErrorBoundary/ErrorBoundary';
 
 const transition = {
   duration: 0.3,
@@ -25,15 +26,18 @@ function ShowcaseList({ emails }) {
           variants={ShowcaseListContainerVariants}
         >
           {emails.map((email) => (
-            <ShowcaseListItem
+            <ErrorBoundary
               key={email.name}
-              data={email}
-              src={(
-                email.desktop.src
-                  ? tryRequire(email.desktop.src)
-                  : null
-              )}
-            />
+            >
+              <ShowcaseListItem
+                data={email}
+                src={(
+                  email.desktop.src
+                    ? tryImageRequire(email.desktop.src)
+                    : null
+                )}
+              />
+            </ErrorBoundary>
           ))}
         </motion.div>
       </div>
