@@ -67,9 +67,9 @@ function Name({ email }) {
   } = email;
 
   // Importing image into the the page
-  const desktopSrc = (desktop.src && tryImageRequire(desktop.src)) || '/image/broken-image.jpg';
+  const desktopSrc = (desktop.src && tryImageRequire(desktop.src)) || '/images/broken-image.jpg';
 
-  const mobileSrc = (mobile.src && tryImageRequire(mobile.src)) || '/image/broken-image.jpg';
+  const mobileSrc = (mobile.src && tryImageRequire(mobile.src)) || '/images/broken-image.jpg';
 
   const [current, send] = useMachine(LightBoxStateMachine, {
     actions: {

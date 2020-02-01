@@ -6,8 +6,8 @@ import tryImageRequire from '../../../../utils/tryImageRequire';
 
 const DetailThumbnail = React.forwardRef(({ assets, handleClick }, thumbnailRef) => {
   const { desktop, mobile } = assets;
-  const desktopSrc = (desktop.src && tryImageRequire(desktop.src)) || '/image/broken-image.jpg';
-  const mobileSrc = (mobile.src && tryImageRequire(mobile.src)) || '/image/broken-image.jpg';
+  const desktopSrc = (desktop.src && tryImageRequire(desktop.src)) || '/images/broken-image.jpg';
+  const mobileSrc = (mobile.src && tryImageRequire(mobile.src)) || '/images/broken-image.jpg';
 
   return (
     <button
