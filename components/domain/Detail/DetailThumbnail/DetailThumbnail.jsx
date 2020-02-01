@@ -2,16 +2,17 @@
 /* eslint-disable global-require */
 import React from 'react';
 import PropTypes from 'prop-types';
+import tryRequire from '../../../../utils/tryRequire';
 
 const DetailThumbnail = React.forwardRef(({ assets, handleClick }, thumbnailRef) => {
   const { desktop, mobile } = assets;
 
   const desktopSrc = desktop.src
-    ? require(`../../../../images/emails/${desktop.src}`)
-    : null;
+    ? tryRequire(desktop.src)
+    : '';
 
   const mobileSrc = mobile.src
-    ? require(`../../../../images/emails/${mobile.src}`)
+    ? tryRequire(mobile.src)
     : null;
 
   return (

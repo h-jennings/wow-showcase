@@ -4,6 +4,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import PropTypes from 'prop-types';
 import ShowcaseListItem from '../ShowCaseListItem';
+import tryRequire from '../../../../utils/tryRequire';
 
 const transition = {
   duration: 0.3,
@@ -29,7 +30,7 @@ function ShowcaseList({ emails }) {
               data={email}
               src={(
                 email.desktop.src
-                  ? require(`../../../../images/emails/${email.desktop.src}`)
+                  ? tryRequire(email.desktop.src)
                   : null
               )}
             />

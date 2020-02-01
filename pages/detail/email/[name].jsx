@@ -14,6 +14,7 @@ import LightBoxStateMachine from '../../../components/domain/Detail/LightBox/Lig
 import { lockScroll, unlockScroll } from '../../../utils/scroll';
 import { setImageSrc, resetImageSrc } from '../../../utils/lightBoxImages';
 import pageTransitionVariants from '../../../utils/pageTransition';
+import tryRequire from '../../../utils/tryRequire';
 
 const transitionValues = {
   transition: {
@@ -66,11 +67,11 @@ function Name({ email }) {
 
   // Importing image into the the page
   const desktopSrc = desktop.src
-    ? require(`../../../images/emails/${desktop.src}`)
+    ? tryRequire(desktop.src)
     : null;
 
   const mobileSrc = mobile.src
-    ? require(`../../../images/emails/${mobile.src}`)
+    ? tryRequire(mobile.src)
     : null;
 
   const [current, send] = useMachine(LightBoxStateMachine, {

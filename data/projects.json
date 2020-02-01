@@ -5,7 +5,7 @@
       "website": "https://www.shopbecker.com",
       "description": "School Supplies",
       "desktop": {
-        "src": "beckers/beckers.png",
+        "src": "emails/beckers/beckers.png",
         "width": 600,
         "height": 3605
       },
@@ -17,12 +17,12 @@
       "actionShots": [{
           "name": "beckers_action_1",
           "desktop": {
-            "src": "beckers/email_1_desktop.png",
+            "src": "emails/beckers/email_1_desktop.png",
             "width": 619,
             "height": 1371
           },
           "mobile": {
-            "src": "beckers/email_1_mobile.png",
+            "src": "emails/beckers/email_1_mobile.png",
             "width": 375,
             "height": 3677
           }
@@ -30,12 +30,12 @@
         {
           "name": "beckers_action_2",
           "desktop": {
-            "src": "beckers/email_2_desktop.png",
+            "src": "emails/beckers/email_2_desktop.png",
             "width": 621,
             "height": 2394
           },
           "mobile": {
-            "src": "beckers/email_2_mobile.png",
+            "src": "emails/beckers/email_2_mobile.png",
             "width": 375,
             "height": 3496
           }
@@ -43,12 +43,12 @@
         {
           "name": "beckers_action_3",
           "desktop": {
-            "src": "beckers/email_3_desktop.png",
+            "src": "emails/beckers/email_3_desktop.png",
             "width": 621,
             "height": 1624
           },
           "mobile": {
-            "src": "beckers/email_3_mobile.png",
+            "src": "emails/beckers/email_3_mobile.jpg",
             "width": 375,
             "height": 5016
           }
@@ -56,12 +56,12 @@
         {
           "name": "beckers_action_4",
           "desktop": {
-            "src": "beckers/email_4_desktop.png",
+            "src": "emails/beckers/email_4_desktop.png",
             "width": 619,
             "height": 2358
           },
           "mobile": {
-            "src": "beckers/email_4_mobile.png",
+            "src": "emails/beckers/email_4_mobile.png",
             "width": 375,
             "height": 3749
           }
@@ -74,7 +74,7 @@
       "website": "https://www.bloomingville.us",
       "description": "Nordic home & interior design",
       "desktop": {
-        "src": "bloomingville/bloomingville.png",
+        "src": "emails/bloomingville/bloomingville.png",
         "width": 640,
         "height": 2582
       },
@@ -86,12 +86,12 @@
       "actionShots": [{
           "name": "bloomingville_action_1",
           "desktop": {
-            "src": "bloomingville/email_1_desktop.png",
+            "src": "emails/bloomingville/email_1_desktop.png",
             "width": 621,
             "height": 1454
           },
           "mobile": {
-            "src": "bloomingville/email_1_mobile.png",
+            "src": "emails/bloomingville/email_1_mobile.png",
             "width": 375,
             "height": 3700
           }
@@ -99,12 +99,12 @@
         {
           "name": "bloomingville_action_2",
           "desktop": {
-            "src": "bloomingville/email_2_desktop.png",
+            "src": "emails/bloomingville/email_2_desktop.png",
             "width": 619,
             "height": 1274
           },
           "mobile": {
-            "src": "bloomingville/email_2_mobile.png",
+            "src": "emails/bloomingville/email_2_mobile.png",
             "width": 375,
             "height": 4008
           }
@@ -112,12 +112,12 @@
         {
           "name": "bloomingville_action_3",
           "desktop": {
-            "src": "bloomingville/email_3_desktop.png",
+            "src": "emails/bloomingville/email_3_desktop.png",
             "width": 621,
             "height": 1179
           },
           "mobile": {
-            "src": "bloomingville/email_3_mobile.png",
+            "src": "emails/bloomingville/email_3_mobile.png",
             "width": 375,
             "height": 4275
           }
@@ -125,12 +125,12 @@
         {
           "name": "bloomingville_action_4",
           "desktop": {
-            "src": "bloomingville/email_4_desktop.png",
+            "src": "emails/bloomingville/email_4_desktop.png",
             "width": 621,
             "height": 1240
           },
           "mobile": {
-            "src": "bloomingville/email_4_mobile.png",
+            "src": "emails/bloomingville/email_4_mobile.png",
             "width": 375,
             "height": 2790
           }
@@ -143,7 +143,7 @@
       "website": "https://www.brownlowgift.com",
       "description": "Giftable Decor",
       "desktop": {
-        "src": "brownlow/brownlow.png",
+        "src": "emails/brownlow/brownlow.png",
         "width": 640,
         "height": 4916
       },
@@ -155,12 +155,12 @@
       "actionShots": [{
           "name": "brownlow_action_1",
           "desktop": {
-            "src": "brownlow/email_1_desktop.png",
+            "src": "emails/brownlow/email_1_desktop.png",
             "width": 619,
             "height": 1752
           },
           "mobile": {
-            "src": "brownlow/email_1_mobile.png",
+            "src": "emails/brownlow/email_1_mobile.png",
             "width": 375,
             "height": 2360
           }
@@ -168,12 +168,12 @@
         {
           "name": "brownlow_action_2",
           "desktop": {
-            "src": "brownlow/email_2_desktop.png",
+            "src": "emails/brownlow/email_2_desktop.png",
             "width": 621,
             "height": 1750
           },
           "mobile": {
-            "src": "brownlow/email_2_mobile.png",
+            "src": "emails/brownlow/email_2_mobile.png",
             "width": 375,
             "height": 2398
           }
@@ -181,12 +181,12 @@
         {
           "name": "brownlow_action_3",
           "desktop": {
-            "src": "brownlow/email_3_desktop.png",
+            "src": "emails/brownlow/email_3_desktop.png",
             "width": 621,
             "height": 2274
           },
           "mobile": {
-            "src": "brownlow/email_3_mobile.png",
+            "src": "emails/brownlow/email_3_mobile.png",
             "width": 375,
             "height": 2405
           }
@@ -199,7 +199,7 @@
       "website": "https://cleanchoiceenergy.com",
       "description": "Clean Energy Supplier",
       "desktop": {
-        "src": "cleanChoice/cleanChoice.jpg",
+        "src": "emails/cleanChoice/cleanChoice.jpg",
         "width": 640,
         "height": 10158
       },
@@ -211,12 +211,12 @@
       "actionShots": [{
           "name": "clean-choice-energy_action_1",
           "desktop": {
-            "src": "cleanChoice/email_1_desktop.png",
+            "src": "emails/cleanChoice/email_1_desktop.png",
             "width": 620,
             "height": 1449
           },
           "mobile": {
-            "src": "cleanChoice/email_1_mobile.png",
+            "src": "emails/cleanChoice/email_1_mobile.png",
             "width": 375,
             "height": 1491
           }
@@ -224,12 +224,12 @@
         {
           "name": "clean-choice-energy_action_2",
           "desktop": {
-            "src": "cleanChoice/email_2_desktop.png",
+            "src": "emails/cleanChoice/email_2_desktop.png",
             "width": 621,
             "height": 1506
           },
           "mobile": {
-            "src": "cleanChoice/email_2_mobile.png",
+            "src": "emails/cleanChoice/email_2_mobile.png",
             "width": 375,
             "height": 1545
           }
@@ -237,12 +237,12 @@
         {
           "name": "clean-choice-energy_action_3",
           "desktop": {
-            "src": "cleanChoice/email_3_desktop.png",
+            "src": "emails/cleanChoice/email_3_desktop.png",
             "width": 620,
             "height": 2398
           },
           "mobile": {
-            "src": "cleanChoice/email_3_mobile.png",
+            "src": "emails/cleanChoice/email_3_mobile.png",
             "width": 375,
             "height": 3029
           }
@@ -255,7 +255,7 @@
       "website": "https://www.creativecoop.com",
       "description": "Home, Seasonal Décor & Fashion Accessories",
       "desktop": {
-        "src": "creative-co-op/creative-co-op.png",
+        "src": "emails/creative-co-op/creative-co-op.png",
         "width": 640,
         "height": 2662
       },
@@ -267,12 +267,12 @@
       "actionShots": [{
           "name": "creative-co-op_action_1",
           "desktop": {
-            "src": "creative-co-op/email_1_desktop.png",
+            "src": "emails/creative-co-op/email_1_desktop.png",
             "width": 621,
             "height": 1881
           },
           "mobile": {
-            "src": "creative-co-op/email_1_mobile.png",
+            "src": "emails/creative-co-op/email_1_mobile.png",
             "width": 375,
             "height": 4665
           }
@@ -280,12 +280,12 @@
         {
           "name": "creative-co-op_action_2",
           "desktop": {
-            "src": "creative-co-op/email_2_desktop.png",
+            "src": "emails/creative-co-op/email_2_desktop.png",
             "width": 621,
             "height": 1885
           },
           "mobile": {
-            "src": "creative-co-op/email_2_mobile.png",
+            "src": "emails/creative-co-op/email_2_mobile.png",
             "width": 375,
             "height": 4305
           }
@@ -293,12 +293,12 @@
         {
           "name": "creative-co-op_action_3",
           "desktop": {
-            "src": "creative-co-op/email_3_desktop.png",
+            "src": "emails/creative-co-op/email_3_desktop.png",
             "width": 621,
             "height": 1609
           },
           "mobile": {
-            "src": "creative-co-op/email_3_mobile.png",
+            "src": "emails/creative-co-op/email_3_mobile.png",
             "width": 375,
             "height": 3179
           }
@@ -306,12 +306,12 @@
         {
           "name": "creative-co-op_action_4",
           "desktop": {
-            "src": "creative-co-op/email_4_desktop.png",
+            "src": "emails/creative-co-op/email_4_desktop.png",
             "width": 621,
             "height": 1634
           },
           "mobile": {
-            "src": "creative-co-op/email_4_mobile.png",
+            "src": "emails/creative-co-op/email_4_mobile.png",
             "width": 375,
             "height": 1781
           }
@@ -319,12 +319,12 @@
         {
           "name": "creative-co-op_action_5",
           "desktop": {
-            "src": "creative-co-op/email_5_desktop.png",
+            "src": "emails/creative-co-op/email_5_desktop.png",
             "width": 621,
             "height": 2122
           },
           "mobile": {
-            "src": "creative-co-op/email_5_mobile.png",
+            "src": "emails/creative-co-op/email_5_mobile.png",
             "width": 375,
             "height": 3336
           }
@@ -337,7 +337,7 @@
       "website": "https://www.cuisinart.com/",
       "description": "American home appliance brand",
       "desktop": {
-        "src": "cuisinart/master.png",
+        "src": "emails/cuisinart/master.png",
         "width": 619,
         "height": 8765
       },
@@ -349,12 +349,12 @@
       "actionShots": [{
           "name": "cuisinart_action_1",
           "desktop": {
-            "src": "cuisinart/email_1_desktop.jpg",
+            "src": "emails/cuisinart/email_1_desktop.jpg",
             "width": 619,
             "height": 4665
           },
           "mobile": {
-            "src": "cuisinart/email_1_mobile.jpg",
+            "src": "emails/cuisinart/email_1_mobile.jpg",
             "width": 375,
             "height": 5585
           }
@@ -362,12 +362,12 @@
         {
           "name": "cuisinart_action_2",
           "desktop": {
-            "src": "cuisinart/email_2_desktop.png",
+            "src": "emails/cuisinart/email_2_desktop.png",
             "width": 619,
             "height": 2598
           },
           "mobile": {
-            "src": "cuisinart/email_2_mobile.png",
+            "src": "emails/cuisinart/email_2_mobile.png",
             "width": 375,
             "height": 4927
           }
@@ -375,12 +375,12 @@
         {
           "name": "cuisinart_action_3",
           "desktop": {
-            "src": "cuisinart/email_3_desktop.jpg",
+            "src": "emails/cuisinart/email_3_desktop.jpg",
             "width": 619,
             "height": 2893
           },
           "mobile": {
-            "src": "cuisinart/email_3_mobile.png",
+            "src": "emails/cuisinart/email_3_mobile.png",
             "width": 375,
             "height": 4461
           }
@@ -393,7 +393,7 @@
       "website": "https://www.deidirect.com",
       "description": "Gifts & More",
       "desktop": {
-        "src": "dei/dei.png",
+        "src": "emails/dei/dei.png",
         "width": 600,
         "height": 2409
       },
@@ -405,12 +405,12 @@
       "actionShots": [{
           "name": "dei_action_1",
           "desktop": {
-            "src": "dei/email_1_desktop.png",
+            "src": "emails/dei/email_1_desktop.png",
             "width": 619,
             "height": 2642
           },
           "mobile": {
-            "src": "dei/email_1_mobile.png",
+            "src": "emails/dei/email_1_mobile.png",
             "width": 375,
             "height": 4662
           }
@@ -418,12 +418,12 @@
         {
           "name": "dei_action_2",
           "desktop": {
-            "src": "dei/email_2_desktop.png",
+            "src": "emails/dei/email_2_desktop.png",
             "width": 619,
             "height": 3329
           },
           "mobile": {
-            "src": "dei/email_2_mobile.png",
+            "src": "emails/dei/email_2_mobile.png",
             "width": 375,
             "height": 5075
           }
@@ -431,12 +431,12 @@
         {
           "name": "dei_action_3",
           "desktop": {
-            "src": "dei/email_3_desktop.png",
+            "src": "emails/dei/email_3_desktop.png",
             "width": 619,
             "height": 2477
           },
           "mobile": {
-            "src": "dei/email_3_mobile.png",
+            "src": "emails/dei/email_3_mobile.png",
             "width": 375,
             "height": 3303
           }
@@ -444,12 +444,12 @@
         {
           "name": "dei_action_4",
           "desktop": {
-            "src": "dei/email_4_desktop.png",
+            "src": "emails/dei/email_4_desktop.png",
             "width": 619,
             "height": 2009
           },
           "mobile": {
-            "src": "dei/email_4_mobile.png",
+            "src": "emails/dei/email_4_mobile.png",
             "width": 375,
             "height": 3081
           }
@@ -457,12 +457,12 @@
         {
           "name": "dei_action_5",
           "desktop": {
-            "src": "dei/email_5_desktop.png",
+            "src": "emails/dei/email_5_desktop.png",
             "width": 619,
             "height": 2049
           },
           "mobile": {
-            "src": "dei/email_5_mobile.png",
+            "src": "emails/dei/email_5_mobile.png",
             "width": 375,
             "height": 3021
           }
@@ -470,12 +470,12 @@
         {
           "name": "dei_action_6",
           "desktop": {
-            "src": "dei/email_6_desktop.png",
+            "src": "emails/dei/email_6_desktop.png",
             "width": 619,
             "height": 2356
           },
           "mobile": {
-            "src": "dei/email_6_mobile.png",
+            "src": "emails/dei/email_6_mobile.png",
             "width": 375,
             "height": 3024
           }
@@ -488,7 +488,7 @@
       "website": "http://www.ganz.com/",
       "description": "Gifts & More",
       "desktop": {
-        "src": "ganz/ganz.jpg",
+        "src": "emails/ganz/ganz.jpg",
         "width": 640,
         "height": 3194
       },
@@ -500,12 +500,12 @@
       "actionShots": [{
           "name": "ganz_action_1",
           "desktop": {
-            "src": "ganz/email_1_desktop.png",
+            "src": "emails/ganz/email_1_desktop.png",
             "width": 620,
             "height": 1392
           },
           "mobile": {
-            "src": "ganz/email_1_mobile.png",
+            "src": "emails/ganz/email_1_mobile.png",
             "width": 375,
             "height": 2219
           }
@@ -513,12 +513,12 @@
         {
           "name": "ganz_action_2",
           "desktop": {
-            "src": "ganz/email_2_desktop.png",
+            "src": "emails/ganz/email_2_desktop.png",
             "width": 620,
             "height": 2052
           },
           "mobile": {
-            "src": "ganz/email_2_mobile.png",
+            "src": "emails/ganz/email_2_mobile.png",
             "width": 375,
             "height": 3210
           }
@@ -526,12 +526,12 @@
         {
           "name": "ganz_action_3",
           "desktop": {
-            "src": "ganz/email_3_desktop.png",
+            "src": "emails/ganz/email_3_desktop.png",
             "width": 620,
             "height": 1475
           },
           "mobile": {
-            "src": "ganz/email_3_mobile.png",
+            "src": "emails/ganz/email_3_mobile.png",
             "width": 375,
             "height": 1412
           }
@@ -539,12 +539,12 @@
         {
           "name": "ganz_action_4",
           "desktop": {
-            "src": "ganz/email_4_desktop.png",
+            "src": "emails/ganz/email_4_desktop.png",
             "width": 620,
             "height": 2784
           },
           "mobile": {
-            "src": "ganz/email_4_mobile.png",
+            "src": "emails/ganz/email_4_mobile.png",
             "width": 375,
             "height": 4089
           }
@@ -552,12 +552,12 @@
         {
           "name": "ganz_action_5",
           "desktop": {
-            "src": "ganz/email_5_desktop.png",
+            "src": "emails/ganz/email_5_desktop.png",
             "width": 620,
             "height": 3414
           },
           "mobile": {
-            "src": "ganz/email_5_mobile.jpg",
+            "src": "emails/ganz/email_5_mobile.jpg",
             "width": 375,
             "height": 5311
           }
@@ -570,7 +570,7 @@
       "website": "https://www.giftcraft.com/",
       "description": "Home Decor",
       "desktop": {
-        "src": "giftcraft/giftcraft.png",
+        "src": "emails/giftcraft/giftcraft.png",
         "width": 600,
         "height": 5048
       },
@@ -582,12 +582,12 @@
       "actionShots": [{
           "name": "giftcraft_action_1",
           "desktop": {
-            "src": "giftcraft/email_1_desktop.png",
+            "src": "emails/giftcraft/email_1_desktop.png",
             "width": 621,
             "height": 3105
           },
           "mobile": {
-            "src": "giftcraft/email_1_mobile.png",
+            "src": "emails/giftcraft/email_1_mobile.png",
             "width": 375,
             "height": 6757
           }
@@ -595,12 +595,12 @@
         {
           "name": "giftcraft_action_2",
           "desktop": {
-            "src": "giftcraft/email_2_desktop.png",
+            "src": "emails/giftcraft/email_2_desktop.png",
             "width": 621,
             "height": 3178
           },
           "mobile": {
-            "src": "giftcraft/email_2_mobile.png",
+            "src": "emails/giftcraft/email_2_mobile.png",
             "width": 375,
             "height": 5105
           }
@@ -608,12 +608,12 @@
         {
           "name": "giftcraft_action_3",
           "desktop": {
-            "src": "giftcraft/email_3_desktop.png",
+            "src": "emails/giftcraft/email_3_desktop.png",
             "width": 619,
             "height": 2034
           },
           "mobile": {
-            "src": "giftcraft/email_3_mobile.png",
+            "src": "emails/giftcraft/email_3_mobile.png",
             "width": 375,
             "height": 3186
           }
@@ -621,12 +621,12 @@
         {
           "name": "giftcraft_action_4",
           "desktop": {
-            "src": "giftcraft/email_4_desktop.png",
+            "src": "emails/giftcraft/email_4_desktop.png",
             "width": 620,
             "height": 2887
           },
           "mobile": {
-            "src": "giftcraft/email_4_mobile.png",
+            "src": "emails/giftcraft/email_4_mobile.png",
             "width": 375,
             "height": 4903
           }
@@ -639,7 +639,7 @@
       "website": "https://www.imaxcorp.com/",
       "description": "Home Decor & Accessories",
       "desktop": {
-        "src": "imax/imax.png",
+        "src": "emails/imax/imax.png",
         "width": 640,
         "height": 4587
       },
@@ -651,12 +651,12 @@
       "actionShots": [{
           "name": "imax_action_1",
           "desktop": {
-            "src": "imax/email_1_desktop.png",
+            "src": "emails/imax/email_1_desktop.png",
             "width": 620,
             "height": 2125
           },
           "mobile": {
-            "src": "imax/email_1_mobile.png",
+            "src": "emails/imax/email_1_mobile.png",
             "width": 375,
             "height": 2658
           }
@@ -664,12 +664,12 @@
         {
           "name": "imax_action_2",
           "desktop": {
-            "src": "imax/email_2_desktop.png",
+            "src": "emails/imax/email_2_desktop.png",
             "width": 620,
             "height": 2536
           },
           "mobile": {
-            "src": "imax/email_2_mobile.png",
+            "src": "emails/imax/email_2_mobile.png",
             "width": 375,
             "height": 3415
           }
@@ -677,12 +677,12 @@
         {
           "name": "imax_action_3",
           "desktop": {
-            "src": "imax/email_3_desktop.png",
+            "src": "emails/imax/email_3_desktop.png",
             "width": 620,
             "height": 2353
           },
           "mobile": {
-            "src": "imax/email_3_mobile.png",
+            "src": "emails/imax/email_3_mobile.png",
             "width": 375,
             "height": 3692
           }
@@ -690,12 +690,12 @@
         {
           "name": "imax_action_4",
           "desktop": {
-            "src": "imax/email_4_desktop.png",
+            "src": "emails/imax/email_4_desktop.png",
             "width": 620,
             "height": 1955
           },
           "mobile": {
-            "src": "imax/email_4_mobile.png",
+            "src": "emails/imax/email_4_mobile.png",
             "width": 375,
             "height": 3341
           }
@@ -703,12 +703,12 @@
         {
           "name": "imax_action_5",
           "desktop": {
-            "src": "imax/email_5_desktop.png",
+            "src": "emails/imax/email_5_desktop.png",
             "width": 620,
             "height": 1545
           },
           "mobile": {
-            "src": "imax/email_5_mobile.png",
+            "src": "emails/imax/email_5_mobile.png",
             "width": 375,
             "height": 1675
           }
@@ -721,7 +721,7 @@
       "website": "https://www.rosebowlstadium.com/",
       "description": "America's Stadium",
       "desktop": {
-        "src": "legacy-foundation/legacy-foundation.png",
+        "src": "emails/legacy-foundation/legacy-foundation.png",
         "width": 600,
         "height": 4947
       },
@@ -733,12 +733,12 @@
       "actionShots": [{
           "name": "legacy-foundation_action_1",
           "desktop": {
-            "src": "legacy-foundation/email_1_desktop.jpg",
+            "src": "emails/legacy-foundation/email_1_desktop.jpg",
             "width": 620,
             "height": 3175
           },
           "mobile": {
-            "src": "legacy-foundation/email_1_mobile.png",
+            "src": "emails/legacy-foundation/email_1_mobile.png",
             "width": 375,
             "height": 3259
           }
@@ -746,12 +746,12 @@
         {
           "name": "legacy-foundation_action_2",
           "desktop": {
-            "src": "legacy-foundation/email_2_desktop.png",
+            "src": "emails/legacy-foundation/email_2_desktop.png",
             "width": 620,
             "height": 3134
           },
           "mobile": {
-            "src": "legacy-foundation/email_2_mobile.png",
+            "src": "emails/legacy-foundation/email_2_mobile.png",
             "width": 375,
             "height": 4490
           }
@@ -759,12 +759,12 @@
         {
           "name": "legacy-foundation_action_3",
           "desktop": {
-            "src": "legacy-foundation/email_3_desktop.jpg",
+            "src": "emails/legacy-foundation/email_3_desktop.jpg",
             "width": 620,
             "height": 2832
           },
           "mobile": {
-            "src": "legacy-foundation/email_3_mobile.png",
+            "src": "emails/legacy-foundation/email_3_mobile.png",
             "width": 375,
             "height": 2756
           }
@@ -772,12 +772,12 @@
         {
           "name": "legacy-foundation_action_4",
           "desktop": {
-            "src": "legacy-foundation/email_4_desktop.png",
+            "src": "emails/legacy-foundation/email_4_desktop.png",
             "width": 620,
             "height": 2276
           },
           "mobile": {
-            "src": "legacy-foundation/email_4_mobile.png",
+            "src": "emails/legacy-foundation/email_4_mobile.png",
             "width": 375,
             "height": 3115
           }
@@ -790,7 +790,7 @@
       "website": "https://www.nashvillewraps.com/",
       "description": "Wholesale Packaging Supplies",
       "desktop": {
-        "src": "nashville-wraps/nashville-wraps.png",
+        "src": "emails/nashville-wraps/nashville-wraps.png",
         "width": 640,
         "height": 5091
       },
@@ -802,12 +802,12 @@
       "actionShots": [{
           "name": "nashville-wraps_action_1",
           "desktop": {
-            "src": "nashville-wraps/email_1_desktop.png",
+            "src": "emails/nashville-wraps/email_1_desktop.png",
             "width": 621,
             "height": 3297
           },
           "mobile": {
-            "src": "nashville-wraps/email_1_mobile.png",
+            "src": "emails/nashville-wraps/email_1_mobile.png",
             "width": 375,
             "height": 5331
           }
@@ -815,12 +815,12 @@
         {
           "name": "nashville-wraps_action_2",
           "desktop": {
-            "src": "nashville-wraps/email_2_desktop.png",
+            "src": "emails/nashville-wraps/email_2_desktop.png",
             "width": 619,
             "height": 2868
           },
           "mobile": {
-            "src": "nashville-wraps/email_2_mobile.png",
+            "src": "emails/nashville-wraps/email_2_mobile.png",
             "width": 375,
             "height": 3705
           }
@@ -828,12 +828,12 @@
         {
           "name": "nashville-wraps_action_3",
           "desktop": {
-            "src": "nashville-wraps/email_3_desktop.png",
+            "src": "emails/nashville-wraps/email_3_desktop.png",
             "width": 621,
             "height": 2434
           },
           "mobile": {
-            "src": "nashville-wraps/email_3_mobile.png",
+            "src": "emails/nashville-wraps/email_3_mobile.png",
             "width": 375,
             "height": 3518
           }
@@ -846,7 +846,7 @@
       "website": "https://www.yamahabicycles.com/",
       "description": "Electric Bicycles",
       "desktop": {
-        "src": "yamaha-bicycles/yamaha-bicycles.jpg",
+        "src": "emails/yamaha-bicycles/yamaha-bicycles.jpg",
         "width": 680,
         "height": 6673
       },
@@ -858,12 +858,12 @@
       "actionShots": [{
           "name": "yamaha-bicycles_action_1",
           "desktop": {
-            "src": "yamaha-bicycles/email_1_desktop.png",
+            "src": "emails/yamaha-bicycles/email_1_desktop.png",
             "width": 660,
             "height": 2519
           },
           "mobile": {
-            "src": "yamaha-bicycles/email_1_mobile.png",
+            "src": "emails/yamaha-bicycles/email_1_mobile.png",
             "width": 375,
             "height": 2902
           }
@@ -871,12 +871,12 @@
         {
           "name": "yamaha-bicycles_action_2",
           "desktop": {
-            "src": "yamaha-bicycles/email_2_desktop.png",
+            "src": "emails/yamaha-bicycles/email_2_desktop.png",
             "width": 660,
             "height": 2639
           },
           "mobile": {
-            "src": "yamaha-bicycles/email_2_mobile.png",
+            "src": "emails/yamaha-bicycles/email_2_mobile.png",
             "width": 375,
             "height": 2840
           }
@@ -884,12 +884,12 @@
         {
           "name": "yamaha-bicycles_action_3",
           "desktop": {
-            "src": "yamaha-bicycles/email_3_desktop.png",
+            "src": "emails/yamaha-bicycles/email_3_desktop.png",
             "width": 660,
             "height": 2519
           },
           "mobile": {
-            "src": "yamaha-bicycles/email_3_mobile.png",
+            "src": "emails/yamaha-bicycles/email_3_mobile.png",
             "width": 375,
             "height": 2902
           }
@@ -897,12 +897,12 @@
         {
           "name": "yamaha-bicycles_action_4",
           "desktop": {
-            "src": "yamaha-bicycles/email_4_desktop.png",
+            "src": "emails/yamaha-bicycles/email_4_desktop.png",
             "width": 660,
             "height": 2735
           },
           "mobile": {
-            "src": "yamaha-bicycles/email_4_mobile.png",
+            "src": "emails/yamaha-bicycles/email_4_mobile.png",
             "width": 375,
             "height": 3018
           }
